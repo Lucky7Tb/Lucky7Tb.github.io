@@ -4,11 +4,12 @@
 <head>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet"
     href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="author" content="Lucky Tri Bhakti">
   <meta name="description" content="Lucky Tri Bhakti portofolio">
@@ -18,173 +19,54 @@
 </head>
 
 <body>
-  <ul id="slide-out" class="sidenav sidenav-fixed">
-    <li>
-      <div class="user-view">
-        <div class="background">
-          <img src="img/background.jpg" width="900">
-        </div>
-        <a href="#user"><img class="circle" src="img/profile.jpg"></a>
-        <a href="#name"><span class="white-text name">Lucky Tri Bhakti</span></a>
-        <a href="#email"><span class="white-text email">luckytribhakti@gmail.com</span></a>
-      </div>
-    </li>
-    <li><a href="#header" class="white-text">About</a></li>
-    <li><a href="#section1" class="white-text">Education</a></li>
-    <li><a href="#section2" class="white-text">Experience</a></li>
-    <li><a href="#section3" class="white-text">Skill</a></li>
-    <li><a href="#section4" class="white-text">Project</a></li>
-  </ul>
 
-  <header id="header" data-aos="flip-right">
-    <div class="container">
-      <h1>Lucky Tri Bhakti</h1>
-      <p class="flow-text">
-        Hello, <br>
-        I'm a student, and i'm form Indonesia. <br>
-        And i new in programming. I know code since i third class of junior high school.
-      </p>
-    </div>
-  </header>
-  <div class="divider"></div>
-
-  <section class="section" id="section1" data-aos="flip-right">
-    <h1>Education</h1>
-    <div class="row">
-      <div class="col s12">
-        <div class="row">
-          <div class="col s4 m4" data-aos="flip-left" data-aos-delay="300">
-            <h6>2009 - 2014</h6>
-            <div class="flow-text"><strong>SDN Sukamenak 6</strong></div>
-          </div>
-          <div class="col s4 m4" data-aos="flip-left" data-aos-delay="600">
-            <h6>2015 - 2017</h6>
-            <div class="flow-text"><strong>SMPN Margahayu 2</strong></div>
-          </div>
-          <div class="col s4 m4" data-aos="flip-left" data-aos-delay="900">
-            <h6>2018 - Now</h6>
-            <div class="flow-text"><strong>SMKN Katapang 1</strong></div>
-          </div>
-        </div>
+  <div id="particles-js">
+    <div class="jumbotron">
+      <div class="container">
+        <img src="img/profile.jpg" width="160" class="rounded-circle mx-auto d-block img-thumbnail profile"
+          alt="Lucky Tri Bhakti">
+        <h1 class="display-3 text-center">Lucky Tri Bhakti</h1>
+        <p class="lead text-center typed mb-5"></p>
       </div>
     </div>
-  </section>
-  <div class="divider"></div>
+  </div>
 
-  <section class="section" id="section2" data-aos="flip-right">
-    <h1>Experience</h1>
-    <div class="row">
-      <div class="col s12">
-        <div class="row">
-          <div class="col s12 m5">
-            <h6>Nov 2018 - Jan 2019</h6>
-            <div class="flow-text"><strong>PT Inovasi Putra Nusantara</strong></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="divider"></div>
-
-  <section class="section" id="section3" data-aos="flip-right">
-    <h1>Skill</h1>
-    <div class="row">
-      <div class="col s12 m12">
-        <h6>Programming Language And Tools</h6>
-        <div class="container_list">
-          <ul class="list">
-            <li>
-              <i class="devicon-html5-plain"></i>
-            </li>
-            <li>
-              <i class="devicon-css3-plain"></i>
-            </li>
-            <li>
-              <i class="devicon-jquery-plain"></i>
-            </li>
-            <li>
-              <i class="devicon-bootstrap-plain"></i>
-            </li>
-            <li>
-              <i class="devicon-codeigniter-plain"></i>
-            </li>
-            <li>
-              <i class="devicon-yii-plain"></i>
-            </li>
-            <li>
-              <i class="devicon-mysql-plain"></i>
-            </li>
-            <li>
-              <i class="devicon-postgresql-plain"></i>
-            </li>
-            <li>
-              <i class="devicon-git-plain"></i>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="divider"></div>
-
-  <section class="section" id="section4" data-aos="flip-right">
-    <h1>Last Project</h1>
-    <div class="row">
-      <div class="col s12 m5">
-        <div class="card" data-aos="flip-left" data-aos-delay="300">
-          <div class="card-image">
-            <img src="img/mapping.png">
-            <span class="card-title black-text">Gis Mapping</span>
-          </div>
-          <div class="card-content">
-            <p>
-              My first project in Pt Inovasi Putra Nusantara. For me it's little hard because i must find coordinates of
-              Bandung city, Bandung district, and Bandung sub-district.
-            </p>
-          </div>
-          <div class="card-action">
-            <a class="blue-text" href="http://mapping.sociocaster.com/" target="_blank">Go to link</a>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m5">
-        <div class="card" data-aos="flip-left" data-aos-delay="600">
-          <div class="card-image">
-            <img src="img/book_krl.png">
-            <span class="card-title black-text">Booking Train</span>
-          </div>
-          <div class="card-content">
-            <p>Is a project in my school for final test. The project is about order train ticket online. Not using api
-              to the project, so train schedule is dummy.</p>
-          </div>
-          <div class="card-action">
-            <a class="blue-text" href="http://luckytribhakti.rf.gd/" target="_blank">Go to link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <div class="fixed-action-btn">
-    <a class="btn-floating btn-large black">
-      <i class="large material-icons">person</i>
-    </a>
-    <ul>
-      <li><a href="https://github.com/Lucky7Tb/" class="btn-floating black"><i class="devicon-github-plain"></i></a></li>
-      <li><a href="https://www.facebook.com/Lucky101Tri" class="btn-floating black"><i class="devicon-facebook-plain"></i></a></li>
-    </ul>
+  <div id="about">
+    <h1>Hello World</h1>
   </div>
 
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="js/typed.min.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      let elems = document.querySelectorAll('.fixed-action-btn');
-      M.FloatingActionButton.init(elems, {direction : 'left'});
+    $(document).ready(function () {
+      particlesJS.load('particles-js', 'js/particles.json');
+      let typed = new Typed('.typed', {
+        strings: ["A Student", "A Random Person", "A Newbie Programmer" ,"<a href='#' class='about btn btn-link btn-lg'>About Me</a>"],
+        typeSpeed: 30,
+        backSpeed: 20,
+        loop: false,
+        showCursor: false
+      });
+      AOS.init();
+      
+      $("#particles-js").on('click','.about', function (e) {
+        e.preventDefault(); 
+        $("#particles-js").fadeOut("slow");
+        
+      });
+
     });
-    AOS.init();
   </script>
 </body>
 
