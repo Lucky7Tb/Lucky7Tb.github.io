@@ -2,18 +2,18 @@ html {
     scroll-behavior: smooth;
 }
 
-.jumbotron{
-    position:fixed;
-    width:100%;
-    height:100%;
-    top:0px;
-    left:0px;
-    background-color: transparent;
-    color: white;
-    opacity: 5%;
+.landing{
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  background-color: transparent;
+  color: white;
+  opacity: 5%;
 }
 
-h1{
+.name{
   background: linear-gradient(to bottom, #232741, white, #353b64);
   background-attachment: fixed;
   -webkit-text-fill-color: transparent;
@@ -21,12 +21,14 @@ h1{
 }
 
 #about{
-  opacity: 0;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  opacity: 1;
+  -webkit-transition: all 0.5s 0.2s ease-in-out;
+  -moz-transition: all 0.5s 0.2s ease-in-out;
+  -ms-transition: all 0.5s 0.2s ease-in-out;
+  -o-transition: all 0.5s 0.2s ease-in-out;
+  transition: all 0.5s 0.2s ease-in-out;
+  z-index: -1;
+  visibility: visible;
 }
 
 #particles-js{
@@ -38,8 +40,20 @@ h1{
     height:100%;
     top:0px;
     left:0px;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    visibility: hidden;
 }
 
-.btn-link:hover{
+.btn-about:hover{
     text-decoration: none !important;
+    cursor: pointer;
+}
+
+i{
+  font-size: 40px;
 }
