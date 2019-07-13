@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    font-family: 'Literata', serif;
+}
+
 .landing{
   position:fixed;
   width:100%;
