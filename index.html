@@ -2,363 +2,398 @@
 <html>
 
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet"
-    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="Lucky Tri Bhakti">
   <meta name="description" content="Lucky Tri Bhakti portofolio">
-  <meta name="keywords"
-    content="portofolio, contoh portofolio, lucky, lucky tri, lucky tri bhakti, freelancer, web developer">
+  <meta name="keywords" content="portofolio, contoh portofolio, lucky, lucky tri, lucky tri bhakti, freelancer, web developer">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+  <link rel="stylesheet" href="./css/notyf.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Lucky Tri Bhakti</title>
 </head>
 
 <body>
 
-  <div id="particles-js">
-    <div class="jumbotron landing">
-      <div class="container">
-        <img src="img/profile.jpg" width="160" class="rounded-circle mx-auto d-block profile"
-          alt="Lucky Tri Bhakti">
-        <h1 class="display-3 name btn-about text-center">Lucky Tri Bhakti</h1>
-        <ul class="text-center list-inline">
-            <li class="list-inline-item"><a href="https://www.facebook.com/Lucky101Tri"><i class="im im-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.instagram.com/luckytribhakti/"><i class="im im-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="https://t.me/LuckyTri7"><i class="im im-paperplane"></i></a></li>
-            <li class="list-inline-item"><a  href="mailto:LuckyTri101@gmail.com"><i class="im im-mail"></i></a></li>
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-secondary-lucky-brand-color">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span class="lucky-brand-color">L</span>ucky</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between float-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="#about-section">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiance-section">Experiance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project-section">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-section">Contact</a>
+          </li>
         </ul>
-        <p class="lead text-center typed mb-5"></p>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <div id="about">
 
-    <div class="jumbotron jumbotron-fluid background-about" data-aos="flip-up">
+  <section id="hero-section">
+    <div class="jumbotron jumbotron-fluid hero">
       <div class="container">
-        <h3 class="display-4 text-center mb-3">About Me</h3>
-        <p class="lead text-center">
-          Seorang siswa dari SMKN 1 Katapang. Baru mengenal dunia programming sejak kelas 3 SMP. Ingin menjadi FrontEnd
-          Developer tapi lebih cenderung di BackEnd.
-        </p>
-        <div class="btn-home text-center">
-          <i class="im im-home"></i>
-        </div>
-      </div>
-    </div>
-
-    <div class="container mb-5">
-      <div class="row">
-        <div class="col-sm-12">
-          <h3 data-aos="flip-up" class="display-4 text-center">Education And Experience</h3>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-12 col-md-7">
-          <div class="card w-75 mx-auto mb-3" data-aos="zoom-in-up" data-aos-delay="300">
-            <div class="card-body">
-              <h5 class="card-title">PT Inovasi Putra Nusantara</h5>
-              <p class="card-text">Pengalaman PKL pertama saya selama 3 bulan. Mendapat banyak pengalaman dan ilmu.
-                Disini saya sebagai BackEnd Developer dalam project GIS</p>
-              <a href="https://www.facebook.com/PT-Inovasi-Putra-Nusantara-1694102960894522/" class="btn btn-primary">Go
-                To Web</a>
-            </div>
-            <div class="card-footer text-muted">
-              Nov 2018 - Jan 2019
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-12 col-md-5">
-            <div class="row text-center mt-5">
-                <div class="col-sm-4 mb-3">
-                  2008 - 2014
+        <div class="row">
+          <div class="col-sm-6">
+            <div id="greeting-container">
+              <h4 class="secondary-lucky-brand-color">Hai! saya</h4>
+              <h2 class="hvr-grow" id="lucky-name" style="font-weight: 600;"><span class="lucky-brand-color">Lucky</span> <span class="secondary-lucky-brand-color">Tri Bhakti</span></h2>
+              <div class="row">
+                <div class="col-2 col-sm-1 mr-2">
+                  <a href="http://github.com/Lucky7Tb" target="_blank" class="hvr-grow">
+                    <img src="./img/icon/Github.svg" alt="Github.com">
+                  </a>
                 </div>
-                <div class="col-sm-4">
-                  SDN Sukamenak 6
+                <div class="col-2 col-sm-1 mr-2">
+                  <a href="mailto:Luckytri101@gmail.com" target="_blank" class="hvr-grow">
+                    <img src="./img/icon/Email.svg" alt="Luckytri101@gmail.com">
+                  </a>
                 </div>
-                <div class="col-sm-4">
-                  -
+                <div class="col-2 col-sm-1 mr-2">
+                  <a href="http://instagram.com/luckytribhakti" target="_blank" class="hvr-grow">
+                    <img src="./img/icon/instagram.svg" alt="insta:@luckytribhakti">
+                  </a>
                 </div>
-                <div class="col-sm-4 mb-3">
-                  2015 - 2017
-                </div>
-                <div class="col-sm-4">
-                  SMPN 2 Margahayu
-                </div>
-                <div class="col-sm-4">
-                  -
-                </div>
-                <div class="col-sm-4">
-                  2018 - Now
-                </div>
-                <div class="col-sm-4">
-                  SMKN 1 Katapang
-                </div>
-                <div class="col-sm-4">
-                  Rekayasa Perangkat Lunak
+                <div class="col-2 col-sm-1 mr-2">
+                  <a href="http://facebook.com/Lucky101Tri" target="_blank" class="hvr-grow">
+                    <img src="./img/icon/Facebook.svg" alt="fb:Lucky101Tri">
+                  </a>
                 </div>
               </div>
+              <a href="#contact-section" class="btn button-outline btn-lg mt-4">Contact Me</a>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div id="my-image-container"></div>
+          </div>
         </div>
-
-
       </div>
     </div>
+  </section>
 
-    <div class="mb-5">
-      <div id="j" class="jumbotron jumbotron-fluid background-about">
-        <div class="container">
+  <section id="about-section">
+
+    <div class="jumbotron jumbotron-fluid" id="about">
+      <div class="container">
+        <h4 class="text-center mt-5" style="font-size: 48px; font-weight: 600;"> <span class="dark-lucky-brand-color">About</span> <span class="lucky-brand-color">Me</span></h4>
+        <div class="divider"></div>
+    
+        <div id="about-container">
           <div class="row">
-            <div class="col-sm-12">
-              <h3 data-aos="flip-up" class="display-4 text-center">Skills</h3>
+            <div class="col-12 col-sm-6">
+              <h2 class="text-center" style="font-weight: 600;"><span class="dark-lucky-brand-color">I'</span><span class="lucky-brand-color">M</span></h2>
+              <p class="lead mt-5 dark-secondary-lucky-brand-color" style="font-weight: 400;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia accusamus nisi ea, odit cumque repudiandae quisquam magni ipsum assumenda. Libero ullam tempore magni maxime, veritatis aliquam aperiam pariatur aliquid quos!</p>
+            </div>
+            <div class="col-12 col-sm-6">
+              <h2 class="text-center"><span class="lucky-brand-color">Skills</span></h2>
+              <div class="row justify-content-center mt-5">
+                <div class="col-sm-2">
+                  <img src="./img/icon/Web.svg" alt="web" width="80%" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-10">
+                  <h4 style="font-weight: 500; font-size: 24px" class="dark-secondary-lucky-brand-color">HTML + CSS + JS <span class="float-right">85%</span></h4>
+                  <div class="progress">
+                    <div class="progress-bar bg-lucky-brand-color" role="progressbar" style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center mt-5">
+                <div class="col-sm-2">
+                  <img src="./img/icon/Bootstrap.svg" alt="bootstrap" width="80%" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-10">
+                  <h4 style="font-weight: 500; font-size: 24px" class="dark-secondary-lucky-brand-color">Boostrap<span class="float-right">70%</span></h4>
+                  <div class="progress">
+                    <div class="progress-bar bg-lucky-brand-color" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center mt-5">
+                <div class="col-sm-2">
+                  <img src="./img/icon/React.svg" alt="react native" width="80%" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-10">
+                  <h4 style="font-weight: 500; font-size: 24px" class="dark-secondary-lucky-brand-color">React Native <span class="float-right">55%</span></h4>
+                  <div class="progress">
+                    <div class="progress-bar bg-lucky-brand-color" role="progressbar" style="width: 55%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center mt-5">
+                <div class="col-sm-2">
+                  <img src="./img/icon/Vue.svg" alt="vue js" width="80%" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-10">
+                  <h4 style="font-weight: 500; font-size: 24px" class="dark-secondary-lucky-brand-color">Vue Js <span class="float-right">45%</span></h4>
+                  <div class="progress">
+                    <div class="progress-bar bg-lucky-brand-color" role="progressbar" style="width: 45%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center mt-5">
+                <div class="col-sm-2">
+                  <img src="./img/icon/Laravel.svg" alt="laravel" width="80%" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-10">
+                  <h4 style="font-weight: 500; font-size: 24px" class="dark-secondary-lucky-brand-color">Laravel <span class="float-right">80%</span></h4>
+                  <div class="progress">
+                    <div class="progress-bar bg-lucky-brand-color" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <ul class="list-unstyled mt-5">
-
-            <li class="media" data-aos="zoom-in-down" data-aos-delay="300">
-              <i class="devicon-html5-plain colored mr-4"></i>
-              <div class="media-body">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <h5 class="mt-0">HTML 5</h5>
-                  </li>
-                  <li class="list-inline-item">
-                    <h5 class="text-muted">60%</h5>
-                  </li>
-                </ul>
-                <div class="progress mt-2" style="height: 3px;">
-                  <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-            </li>
-
-            <li class="media my-4" data-aos="zoom-in-down" data-aos-delay="600">
-              <i class="devicon-css3-plain colored mr-4"></i>
-              <div class="media-body">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <h5 class="mt-0">CSS 5</h5>
-                  </li>
-                  <li class="list-inline-item">
-                    <h5 class="text-muted">55%</h5>
-                  </li>
-                </ul>
-                <div class="progress mt-2" style="height: 3px;">
-                  <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-            </li>
-
-            <li class="media my-4" data-aos="zoom-in-down" data-aos-delay="900">
-              <i class="devicon-jquery-plain colored mr-4"></i>
-              <div class="media-body">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <h5 class="mt-0">Jquery</h5>
-                  </li>
-                  <li class="list-inline-item">
-                    <h5 class="text-muted">50%</h5>
-                  </li>
-                </ul>
-                <div class="progress mt-2" style="height: 3px;">
-                  <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-            </li>
-
-            <li class="media my-4" data-aos="zoom-in-down" data-aos-delay="1200">
-              <i class="devicon-bootstrap-plain colored mr-4"></i>
-              <div class="media-body">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <h5 class="mt-0">Bootstrap</h5>
-                  </li>
-                  <li class="list-inline-item">
-                    <h5 class="text-muted">75%</h5>
-                  </li>
-                </ul>
-                <div class="progress mt-2" style="height: 3px;">
-                  <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-            </li>
-
-            <li class="media my-4" data-aos="zoom-in-down" data-aos-delay="1500">
-              <i class="devicon-codeigniter-plain colored mr-4"></i>
-              <div class="media-body">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <h5 class="mt-0">Codeigniter</h5>
-                  </li>
-                  <li class="list-inline-item">
-                    <h5 class="text-muted">50%</h5>
-                  </li>
-                </ul>
-                <div class="progress mt-2" style="height: 3px;">
-                  <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-            </li>
-
-            <li class="media my-4" data-aos="zoom-in-down" data-aos-delay="1800">
-              <i class="devicon-yii-plain colored mr-4"></i>
-              <div class="media-body">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <h5 class="mt-0">Yii</h5>
-                  </li>
-                  <li class="list-inline-item">
-                    <h5 class="text-muted">65%</h5>
-                  </li>
-                </ul>
-                <div class="progress mt-2" style="height: 3px;">
-                  <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-            </li>
-
-            <li class="media my-4" data-aos="zoom-in-down" data-aos-delay="2100">
-              <i class="devicon-mysql-plain colored mr-4"></i>
-              <div class="media-body">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <h5 class="mt-0">MySql</h5>
-                  </li>
-                  <li class="list-inline-item">
-                    <h5 class="text-muted">65%</h5>
-                  </li>
-                </ul>
-                <div class="progress mt-2" style="height: 3px;">
-                  <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-            </li>
-
-            <li class="media my-4" data-aos="zoom-in-down" data-aos-delay="2400">
-              <i class="devicon-git-plain colored mr-4"></i>
-              <div class="media-body">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <h5 class="mt-0">Git</h5>
-                  </li>
-                  <li class="list-inline-item">
-                    <h5 class="text-muted">50%</h5>
-                  </li>
-                </ul>
-                <div class="progress mt-2" style="height: 3px;">
-                  <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-                </div>
-              </div>
-            </li>
-
-          </ul>
         </div>
-      </div>
+    </div>
 
+    </div>
+
+  </section>
+
+  <section id="experiance-section">
+    <div class="jumbotron jumbotron-fluid" id="experiance">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h3 data-aos="flip-up" class="display-4 text-center">Portofolio</h3>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <div class="card w-75 mx-auto" data-aos="flip-right">
-              <div class="img-container">
-                <img src="./img/mapping.png" class="card-img-top" alt="Project 1">
-                <div class="overlay">
-                  <div class="text"><a href="http://mapping.sociocaster.com">See Website</a></div>
+        <h4 class="text-center mt-5" style="font-size: 48px; font-weight: 600;"><span class="lucky-brand-color">Experiance</span></h4>
+        <div class="divider"></div>
+        
+        <div class="mt-5">
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <div class="box-container-experiance hvr-grow-shadow hvr-glow rounded">
+                <div class="container mt-5">
+                  <h6 class="text-center lucky-brand-color" style="font-weight: 600; font-size: 24px;">PT.Inovasi Putra Nusantara</h6>
+                  <h3 class="text-center dark-lucky-brand-color" style="font-size: 24px;">Backend Developer</h3>
+                  <p class="lead text-center dark-lucky-brand-color pt-3"  style="font-weight: 200;">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus cum sint qui, assumenda ad recusandae, exercitationem necessitatibus magnam aut aliquam natus dolor vel, voluptatem accusamus numquam rerum alias a quisquam.
+                  </p>
+                  <a class="btn button-outline mx-auto d-block mt-5 shadow-sm" href="https://sociocaster.com" target="_blank">Go To Inovasi Putra Nusantara</a>
                 </div>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Gis Mapping</h5>
-                <p class="card-text">
-                  Project PKL pertama saya. Project ini bertujuan untuk mengetahui jumlah penduduk menggunakan metode
-                  gis
-                </p>
+            </div>
+            <div class="col-12 col-sm-6">
+              <div class="box-container-experiance hvr-grow-shadow hvr-glow rounded">
+                <div class="container mt-5">
+                  <a href="https://simpleschooldev.com" target="_blank">
+                    <h6 class="text-center lucky-brand-color" style="font-weight: 600; font-size: 24px;">Simple School</h6>
+                  </a>
+                  <h3 class="text-center dark-lucky-brand-color" style="font-size: 24px;">Backend Developer</h3>
+                  <p class="lead text-center dark-lucky-brand-color pt-3" style="font-weight: 200;">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus cum sint qui, assumenda ad recusandae, exercitationem necessitatibus magnam aut aliquam natus dolor vel, voluptatem accusamus numquam rerum alias a quisquam.
+                  </p>
+                  <a class="btn button-outline mx-auto d-block mt-5 shadow-sm" href="https://simpleschooldev.com" target="_blank">Go To SimpleSchool</a>
+                </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-sm-12 col-md-6">
-            <div class="card w-75 mx-auto" data-aos="flip-left">
-              <div class="img-container">
-                <img src="./img/book_krl.png" class="card-img-top" alt="Project 2">
-                <div class="overlay">
-                  <div class="text"><a href="http://luckytribhakti.rf.gd">See Website</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="project-section">
+    <div class="jumbotron jumbotron-fluid bg-lucky-brand-color" id="project">
+      <div class="container">
+        <h4 class="text-center mt-5" style="font-size: 48px; font-weight: 600;"><span class="lucky-brand-color">My </span><span class="dark-lucky-brand-color">Project</span></h4>
+        <div class="divider"></div>
+          <div class="container">
+            <nav class="mt-5">
+              <div class="nav nav-pills nav-justified" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active dark-lucky-brand-color" id="nav-web-project-tab" data-toggle="tab" href="#nav-web-project" role="tab" aria-controls="nav-web-project" aria-selected="true">Web</a>
+                <a class="nav-item nav-link dark-lucky-brand-color" id="nav-mobile-project-tab" data-toggle="tab" href="#nav-mobile-project" role="tab" aria-controls="nav-mobile-project" aria-selected="false">Mobile</a>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-web-project" role="tabpanel" aria-labelledby="nav-web-project-tab">
+                <div class="row mt-3">
+                  <div class="col-sm-6">
+                    <figure class="imghvr-blur">
+                        <img src="./img/project/gis_mapping.png" alt="Gis Mapping" width="100%">
+                        <figcaption>
+                          <h5>Gis Mapping</h5>
+                          <p class="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, delectus facere, quo obcaecati quisquam non omnis neque blanditiis ad fugit aspernatur qui. Asperiores modi magnam fugit soluta adipisci quibusdam deleniti.
+                          </p>
+                          <a href="#"></a>
+                        </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-sm-6">
+                    <figure class="imghvr-blur">
+                      <img src="./img/project/booking_tiket.png" alt="Booking Tiket" width="100%">
+                      <figcaption>
+                        <h5>Booking Tiket Kereta</h5>
+                        <p class="lead">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, delectus facere, quo obcaecati quisquam non omnis neque blanditiis ad fugit aspernatur qui. Asperiores modi magnam fugit soluta adipisci quibusdam deleniti.
+                        </p>
+                      </figcaption>
+                      <a href="#"></a>
+                    </figure>
+                  </div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-sm-6">
+                    <figure class="imghvr-blur">
+                      <img src="./img/project/inventory.png" alt="Inventory" width="100%">
+                      <figcaption>
+                        <h5>Inventory</h5>
+                        <p class="lead">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, delectus facere, quo obcaecati quisquam non omnis neque blanditiis ad fugit aspernatur qui. Asperiores modi magnam fugit soluta adipisci quibusdam deleniti.
+                        </p>
+                      </figcaption>
+                      <a href="#"></a>
+                    </figure>
+                  </div>
+                  <div class="col-sm-6">
+                    <figure class="imghvr-blur">
+                      <img src="./img/project/simple_school.png" alt="Simple School" width="100%">
+                      <figcaption>
+                        <h5>Admin-SimpleSchool</h5>
+                        <p class="lead">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, delectus facere, quo obcaecati quisquam non omnis neque blanditiis ad fugit aspernatur qui. Asperiores modi magnam fugit soluta adipisci quibusdam deleniti.
+                        </p>
+                      </figcaption>
+                      <a href="#"></a>
+                    </figure>
+                  </div>
                 </div>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Book Tiket Kereta</h5>
-                <p class="card-text">
-                  Project kedua untuk memenuhi syarat lulus uji kompetensi di sekolah saya. Data pada project ini
-                  masih dummy
-                </p>
+              <div class="tab-pane fade" id="nav-mobile-project" role="tabpanel" aria-labelledby="nav-mobile-project-tab">
+                <div class="row mt-3">
+                  <div class="col-sm-6">
+                    <img src="./img/Project/covid_mobile.png" alt="Covid Mobile" width="50%" class="mx-auto d-block">
+                    <h4 class="text-center lucky-brand-color" style="font-weight: 500;">Covid Mobile Apps</h4>
+                  </div>
+                  <div class="col-sm-6 mx-auto d-block">
+                    <img src="./img/Project/inventory_mobile.png" alt="Inventory Mobile" width="50%" class="mx-auto d-block">
+                    <h4 class="text-center lucky-brand-color" style="font-weight: 500;">Inventory Mobile Apps</h4>
+                  </div>
+                </div>
               </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-section">
+    <div class="jumbotron jumbotron-fluid bg" id="contact">
+      <div class="container">
+        <h4 class="text-center mt-5" style="font-size: 48px; font-weight: 600;"><span class="lucky-brand-color">Contact</span></h4>
+        <div class="divider"></div>
+        <div id="contact-container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div id="map"></div>
+            </div>
+            <div class="col-sm-6">
+              <form id="contact-form">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label for="email" class="secondary-lucky-brand-color">Email</label>
+                      <input type="email" name="email" id="email" class="form-control" required>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label for="subjet" class="secondary-lucky-brand-color">Subject</label>
+                      <input type="text" name="subject" id="subject" class="form-control">
+                    </div>                   
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="form-group">
+                      <label for="subjet" class="secondary-lucky-brand-color">Pesan</label>
+                      <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn button-outline btn-lg" id="btn-send">Kirim</button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="./js/typed.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        particlesJS.load('particles-js', 'js/particles.json');
-        let typed = new Typed('.typed', {
-          strings: ["A Student", "A Random Person", "A Newbie Programmer", "<p class='btn-about btn btn-link btn-lg'>About Me</p>"],
-          typeSpeed: 30,
-          backSpeed: 20,
-          loop: false,
-          showCursor: false
-        });
-        
-        AOS.init();
+  <nav class="navbar bottom navbar-light bg-dark-primary-lucky-brand-color justify-content-center">
+    <p class="text-center secondary-lucky-brand-color mt-3">
+      &copy; Lucky Tri Bhakti - Made With
+      <svg class="bi bi-heart-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="red" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" clip-rule="evenodd"/>
+      </svg>
+    </p>
+  </nav>
 
-        $("#particles-js").on('click', '.btn-about', function () {
-          $("#about").show();
-          $("#about").css("opacity", 1);
-          $("#about").css("visibility", 'visible');
-          $("#particles-js").css("opacity", 0);
-          $("#particles-js").css("visibility", 'hidden');
-        });
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
+  <script src="./js/notyf.js"></script>
+  <script> 
+    const mymap = L.map('map').setView([-6.975428, 107.575144], 15);
+    const streetLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { 
+		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(mymap);
+    const marker = L.marker([-6.975428, 107.575144]).addTo(mymap);
 
-        $('.btn-home').on('click', function () {
-          $("#about").hide();
-          $("#about").css("opacity", 0);
-          $("#about").css("visibility", 'hidden');
-          $("#particles-js").css("opacity", 1);
-          $("#particles-js").css("visibility", 'visible');
-        });
-
+    $(document).ready(function(){
+      const alert = new Notyf({
+        duration: 3000
       });
-    </script>
-</body>
+      const emailField = document.getElementById('email');
+      const messageField = document.getElementById('message');
+      const buttonSend = document.getElementById('btn-send');
+      const contactForm = document.getElementById('contact-form');
+      const regexEmail = /^[\w\.\-_]{1,}@[\w\.\-]{6,}/
+      let data;
+      buttonSend.addEventListener('click', function(event){
+        event.preventDefault();
+        if( emailField.value != '' && messageField.value != '' ){
+          if(regexEmail.test(email.value)){
+            data = new FormData(contactForm);
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', 'https://formspree.io/mknvaoov');
+            xhr.setRequestHeader("Accept", "application/json");
+            xhr.onreadystatechange = function() {
+              if (xhr.readyState !== XMLHttpRequest.DONE) return;
+              if (xhr.status === 200) {
+                alert.success('Berhasil mengirim pesan');
+                contactForm.reset();
+              } else {
+                alert.error('Oops! Gagal mengirim pesan. Silahkan coba lagi nanti');
+              }
+            };
+            xhr.send(data);
+          }else{
+            alert.error('Harap masukan email yang valid');
+          }
+        }else{
+          alert.error('Email dan pesan tidak boleh kosong');
+        }
+      });
+    })
 
+  </script>
+
+</body>
 </html>
