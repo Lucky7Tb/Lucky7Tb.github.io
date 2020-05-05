@@ -207,11 +207,9 @@ body{
 }
 
 .navbar-brand{
-    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
-    text-align: center;
     color: var(--primary-dark-color);
 }
 
@@ -229,22 +227,12 @@ body{
     mix-blend-mode: luminosity;
 }
 
-#my-image-container{
-    position: absolute;
-    width: 525px;
-    height: 500px;
-    background-image: url("../img/me.png");
-    background-repeat: no-repeat;
-    mix-blend-mode: lighten;
-    backdrop-filter: blur(4px);
-}
-
 /* About Section */
 
 #about-section, #about{
     margin-top: -3%;
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background-color: var(--secondary-color);
 }
 
@@ -258,13 +246,12 @@ body{
 #experiance-section, #experiance{
     margin-top: -3%;
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background-color: var(--secondary-dark-color);
 }
 
 .box-container-experiance{
-    width: 520px;
-    height: 470px;
+    height: 500px;
     background-color: var(--secondary-color);
 }
 
@@ -274,7 +261,7 @@ body{
 #project-section, #project{
     margin-top: -3%;
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background-color: var(--secondary-color);
 }
 
@@ -284,7 +271,6 @@ body{
 #contact-section, #contact{
     margin-top: -3%;
     width: 100%;
-    height: 1000px;
     background-color: var(--secondary-dark-color);
 }
 
@@ -296,20 +282,110 @@ body{
     height: 450px;
 }
 
+@media only screen and (max-width: 576px) {
+    .menu{
+        display: none
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .social-media{
+        margin: auto;
+    }
+}
 
 /* Small Mobile */
 @media only screen and (min-width: 360px) {
+    #contact-section, #contact{
+        height: 75em;
+    }
+
+    .box-container-experiance{
+        margin-top: 20px;
+    }
+
+    #lucky-name, #greeting-text, #button-cta-container{
+        text-align: center;
+    }
+
+    #lucky-name{
+        padding-left: 10%;
+    }
     
+    #button-cta {
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    #button-cta-container{
+        margin-top: 20px
+    }
+
 }
 
 /* Mobile */
 @media only screen and (min-width: 576px) {
-    
+    #contact-section, #contact{
+        height: 45em;
+    }
+
+    #experiance-section, #experiance{ 
+        height: 65em;
+    }
+
+    .box-container-experiance{
+        height: 750px;
+    }
+
+    #lucky-name{
+        padding-left: 15%;
+    }
+
 }
 
-/* Desktop */
+/* Tablet */
 @media only screen and (min-width: 768px) {
+    #my-image-container{
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        background-image: url("../img/me.png");
+        background-repeat: no-repeat;
+        mix-blend-mode: lighten;
+        backdrop-filter: blur(4px);
+    }
 
+    #contact-section, #contact{
+        height: 50em;
+    }
+    
+    .box-container-experiance{
+        height: 550px;
+    }
+
+    #experiance-section, #experiance{ 
+        height: 100%;
+    }
+
+    #lucky-name, #greeting-text, #button-cta-container{
+        text-align: left;
+    }
+
+    #lucky-name{
+        font-size: 40px;
+        padding-left: 0px;
+    }
+
+    #button-cta {
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    #button-cta-container{
+        margin-top: 20px
+    }
 }
 
 /* Desktop */
