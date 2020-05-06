@@ -251,7 +251,6 @@ body{
 }
 
 .box-container-experiance{
-    height: 500px;
     background-color: var(--secondary-color);
 }
 
@@ -292,6 +291,10 @@ body{
     .social-media{
         margin: auto;
     }
+
+    #lucky-name{
+        padding: 0 20%
+    }
 }
 
 /* Small Mobile */
@@ -304,14 +307,10 @@ body{
         margin-top: 20px;
     }
 
-    #lucky-name, #greeting-text, #button-cta-container{
+    #greeting-text, #lucky-name, #button-cta-container{
         text-align: center;
     }
 
-    #lucky-name{
-        padding-left: 10%;
-    }
-    
     #button-cta {
         text-align: center;
         display: inline-block;
@@ -319,7 +318,7 @@ body{
     }
 
     #button-cta-container{
-        margin-top: 20px
+        margin-top: 20px;
     }
 
 }
@@ -336,10 +335,6 @@ body{
 
     .box-container-experiance{
         height: 750px;
-    }
-
-    #lucky-name{
-        padding-left: 15%;
     }
 
 }
@@ -375,6 +370,7 @@ body{
     #lucky-name{
         font-size: 40px;
         padding-left: 0px;
+        padding-right: 0px;
     }
 
     #button-cta {
@@ -390,5 +386,11 @@ body{
 
 /* Desktop */
 @media only screen and (min-width: 992px) {
+    .box-container-experiance{
+        height: 500px;
+    }
 
+    .box-container-experiance a {
+        margin-top: 10%
+    }
 }
