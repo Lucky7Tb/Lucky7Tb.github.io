@@ -356,7 +356,7 @@
   <script src="./js/notyf.js"></script>
   <script> 
     const mymap = L.map('map').setView([-6.975428, 107.575144], 15);
-    const streetLayer = L.tileLayer('https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/images/layers.png', { 
+    const streetLayer = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', { 
 		attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
 		}).addTo(mymap);
     const marker = L.marker([-6.975428, 107.575144]).addTo(mymap);
