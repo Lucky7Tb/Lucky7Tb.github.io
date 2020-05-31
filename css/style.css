@@ -260,7 +260,6 @@ body{
 .jumbotron.hero{
     height: 640px;
     background: var(--secondary-dark-color);
-    mix-blend-mode: luminosity;
 }
 
 /* About Section */
