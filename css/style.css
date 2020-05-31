@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 :root {
     --primary-color: #BBDB9B;
     --secondary-color: #FFFBFC;
@@ -66,15 +73,23 @@ body{
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+       transition-duration: 0.3s;
     -webkit-transition-property: transform;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
     transition-property: transform;
+    transition-property: transform, -webkit-transform;
 }
+
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
 }
 
 .hvr-glow {
@@ -82,15 +97,22 @@ body{
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+       transition-duration: 0.3s;
     -webkit-transition-property: box-shadow;
+    -webkit-transition-property: -webkit-box-shadow;
+    transition-property: -webkit-box-shadow;
+    -o-transition-property: box-shadow;
     transition-property: box-shadow;
+    transition-property: box-shadow, -webkit-box-shadow;
 }
 
 .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 
 .hvr-grow-shadow {
@@ -98,16 +120,24 @@ body{
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+       transition-duration: 0.3s;
     -webkit-transition-property: box-shadow, transform;
+    -webkit-transition-property: -webkit-box-shadow, -webkit-transform;
+    transition-property: -webkit-box-shadow, -webkit-transform;
+    -o-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform, -webkit-box-shadow, -webkit-transform;
   }
 .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
 }
 
 .button-outline{
@@ -172,7 +202,10 @@ body{
 [class^='imghvr-']:after, [class*=' imghvr-']:before, [class*=' imghvr-']:after,
 [class^='imghvr-'] *, [class*=' imghvr-'] *, [class^='imghvr-'] *:before,
 [class^='imghvr-'] *:after, [class*=' imghvr-'] *:before, [class*=' imghvr-'] *:after {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: all .35s ease;
+    -o-transition: all .35s ease;
     transition: all .35s ease;
 }
 
@@ -184,13 +217,16 @@ body{
     -webkit-filter: blur(30px);
             filter: blur(30px);
     -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+            -ms-transform: scale(1.2);
+        transform: scale(1.2);
     opacity: 0;
 }
 
 .imghvr-blur:hover figcaption {
     opacity: 1;
-    transition-delay: 0.21s;
+    -webkit-transition-delay: 0.21s;
+         -o-transition-delay: 0.21s;
+            transition-delay: 0.21s;
 }
   
 /* Hero */
@@ -348,7 +384,8 @@ body{
         background-image: url("../img/me.png");
         background-repeat: no-repeat;
         mix-blend-mode: lighten;
-        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+                backdrop-filter: blur(4px);
     }
 
     #contact-section, #contact{
