@@ -340,7 +340,14 @@ body{
 
     .box-container-experiance{
         margin-top: 20px;
+        height: 500px;
     }
+
+    .imghvr-blur figcaption {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
 
     #greeting-text, #lucky-name, #button-cta-container{
         text-align: center;
@@ -428,5 +435,9 @@ body{
 
     .box-container-experiance a {
         margin-top: 10%
+    }
+
+    .imghvr-blur figcaption {
+       overflow: hidden;
     }
 }
