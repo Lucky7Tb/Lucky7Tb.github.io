@@ -343,9 +343,10 @@ body{
         height: 500px;
     }
 
-    .imghvr-blur figcaption {
+    figure figcaption {
         overflow-y: scroll;
         overflow-x: hidden;
+        height: auto
     }
 
 
