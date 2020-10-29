@@ -384,8 +384,8 @@ body {
 		width: 60%;
 	}
 
-	#about-section #about .vue-icon, #about-section #about .laravel-icon{
-		width: 35%;
+	#about-section #about .vue-icon, #about-section #about .laravel-icon, #about-section #about .bootstrap-icon{
+		width: 45%;
 	}
 
 	#greeting-text,
@@ -425,8 +425,8 @@ body {
 		width: 100%;
 	}
 
-	#about-section #about .vue-icon, #about-section #about .laravel-icon{
-		width: 50%;
+	#about-section #about .vue-icon, #about-section #about .laravel-icon, #about-section #about .bootstrap-icon{
+		width: 60%;
 	}
 }
 
@@ -452,9 +452,10 @@ body {
 		width: 95%;
 	}
 
-	#about-section #about .vue-icon, #about-section #about .laravel-icon{
-		width: 50%;
+	#about-section #about .vue-icon, #about-section #about .laravel-icon, #about-section #about .bootstrap-icon{
+		width: 60%;
 	}
+	
 	#contact-section,
 	#contact {
 		height: 50em;
@@ -515,7 +516,7 @@ body {
 		width: 50%;
 	}
 
-	#about-section #about .vue-icon, #about-section #about .laravel-icon{
-		width: 30%;
+	#about-section #about .vue-icon, #about-section #about .laravel-icon, #about-section #about .bootstrap-icon{
+		width: 40%;
 	}
 }
