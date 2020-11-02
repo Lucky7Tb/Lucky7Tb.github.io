@@ -266,7 +266,7 @@
 									<div class="col-12 mt-5">
 										<div class="row">
 											<div
-												class="col-4 col-sm-4 col-md-4 col-lg-4"
+												class="col-6 col-sm-6 col-md-6 col-lg-6"
 											>
 												<img
 													src="./img/Icon/Bootstrap.svg"
@@ -275,16 +275,7 @@
 												/>
 											</div>
 											<div
-												class="col-4 col-sm-4 col-md-4 col-lg-4"
-											>
-												<img
-													src="./img/Icon/Vue.svg"
-													alt="Vue"
-													class="mx-auto d-block img-fluid skill-icon vue-icon"
-												/>
-											</div>
-											<div
-												class="col-4 col-sm-4 col-md-4 col-lg-4"
+												class="col-6 col-sm-6 col-md-6 col-lg-6"
 											>
 												<img
 													src="./img/Icon/Laravel.svg"
@@ -754,7 +745,9 @@
 		></script>
 		<script src="./js/notyf.js"></script>
 		<script>
-			const mymap = L.map("map").setView([-6.975428, 107.575144], 15);
+			const mymap = L.map("map", {
+				scrollWheelZoom: false
+			}).setView([-6.975428, 107.575144], 15);
 			const streetLayer = L.tileLayer(
 				"https://{s}.tile.osm.org/{z}/{x}/{y}.png",
 				{
