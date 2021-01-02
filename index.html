@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="id">
 	<head>
+		<meta charset="UTF-8" />
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -705,7 +706,7 @@
 			class="navbar bottom navbar-light bg-dark-primary-lucky-brand-color justify-content-center"
 		>
 			<p class="text-center secondary-lucky-brand-color">
-				&copy; Lucky Tri Bhakti - Made With
+				&copy; <span id="year"></span>, Lucky Tri Bhakti - Made With
 				<svg
 					class="bi bi-heart-fill"
 					width="1em"
@@ -745,6 +746,9 @@
 		></script>
 		<script src="./js/notyf.js"></script>
 		<script>
+			const date = new Date();
+			document.getElementById("year").innerHTML = date.getFullYear();
+
 			const mymap = L.map("map", {
 				scrollWheelZoom: false
 			}).setView([-6.975428, 107.575144], 15);
