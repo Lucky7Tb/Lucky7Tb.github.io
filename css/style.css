@@ -384,8 +384,8 @@ body {
 		width: 60%;
 	}
 
-	#about-section #about .laravel-icon, #about-section #about .bootstrap-icon{
-		width: 30%;
+	#about-section #about .laravel-icon, #about-section #about .bootstrap-icon, #about-section #about .codeigniter-icon{
+		width: 35%;
 	}
 
 	#greeting-text,
@@ -409,7 +409,7 @@ body {
 @media only screen and (min-width: 360px) {
 	.box-container-experiance {
 		margin-top: 20px;
-		height: 500px;
+		height: 600px;
 	}
 }
 
@@ -433,7 +433,7 @@ body {
 		width: 100%;
 	}
 
-	#about-section #about .laravel-icon, #about-section #about .bootstrap-icon{
+	#about-section #about .laravel-icon, #about-section #about .bootstrap-icon, #about-section #about .codeigniter-icon{
 		width: 50%;
 	}
 }
@@ -460,7 +460,7 @@ body {
 		width: 95%;
 	}
 
-	#about-section #about .laravel-icon, #about-section #about .bootstrap-icon{
+	#about-section #about .laravel-icon, #about-section #about .bootstrap-icon, #about-section #about .codeigniter-icon{
 		width: 40%;
 	}
 	
@@ -524,7 +524,7 @@ body {
 		width: 50%;
 	}
 
-	#about-section #about .laravel-icon, #about-section #about .bootstrap-icon{
-		width: 25%;
+	#about-section #about .laravel-icon, #about-section #about .bootstrap-icon, #about-section #about .codeigniter-icon{
+		width: 30%;
 	}
 }
