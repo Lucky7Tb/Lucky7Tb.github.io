@@ -1,0 +1,43 @@
+{
+  "name": "lucky-web-portofolio",
+  "version": "1.0.0",
+  "description": "My web portofolio",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server dist -p 5000",
+    "dev": "mix watch",
+    "build": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucky7Tb/Lucky7Tb.github.io.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "sass",
+    "scss",
+    "laravel-mix",
+    "website",
+    "portofolio",
+    "web-design"
+  ],
+  "author": "Lucky Tri Bhakti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucky7Tb/Lucky7Tb.github.io/issues"
+  },
+  "homepage": "https://github.com/Lucky7Tb/Lucky7Tb.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "http-server": "^13.0.1",
+    "laravel-mix": "^6.0.31",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  },
+  "dependencies": {
+    "daisyui": "^1.14.0",
+    "notyf": "^3.10.0"
+  }
+}

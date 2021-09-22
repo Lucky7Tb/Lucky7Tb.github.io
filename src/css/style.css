@@ -1,0 +1,24 @@
+* {
+	scroll-behavior: smooth;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Small Mobile */
+@media only screen and (min-width: 360px) {
+	
+}
+
+/* Mobile */
+@media only screen and (min-width: 576px) {
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+	
+}
