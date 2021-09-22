@@ -9,4 +9,4 @@ mix
 	.css('src/css/style.css', 'css')
 	.css('src/css/hover.css', 'css')
 	.js('src/js/app.js', 'js')
-	.postCss('src/css/app.css', 'css', [require('tailwindcss')]);
+	.postCss('src/css/style.css', 'css', [require('tailwindcss')]);
