@@ -1,289 +1,131 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" data-theme="forest">
+
 	<head>
 		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<meta name="author" content="Lucky Tri Bhakti" />
 		<meta name="description" content="Lucky Tri Bhakti portofolio" />
-		<meta
-			name="keywords"
-			content="portofolio, contoh portofolio, lucky, lucky tri, lucky tri bhakti, freelancer, web developer, portofolio, webdesign, web design"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-			crossorigin="anonymous"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.css"
-			integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-			crossorigin=""
-		/>
-		<link rel="stylesheet" href="./css/notyf.css" />
-		<link rel="stylesheet" href="./css/style.css" />
+		<meta name="keywords"
+			content="portofolio, contoh portofolio, lucky, lucky tri, lucky tri bhakti, freelancer, web developer, portofolio, webdesign, web design" />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="css/app.css" />
+		<link rel="stylesheet" href="css/hover.css" />
 		<title>Lucky Tri Bhakti</title>
 	</head>
 
 	<body>
-		<nav
-			class="navbar navbar-expand-lg sticky-top navbar-light bg-secondary-lucky-brand-color menu"
-		>
-			<div class="container">
-				<a class="navbar-brand" href="#"
-					><span class="lucky-brand-color">L</span>ucky</a
-				>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarNav"
-					aria-controls="navbarNav"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div
-					class="collapse navbar-collapse justify-content-between float-right"
-					id="navbarNav"
-				>
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="#about-section">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#experiance-section"
-								>Experiance</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#project-section"
-								>Project</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contact-section"
-								>Contact</a
-							>
-						</li>
-					</ul>
+		<!-- Navbar -->
+		<div class="
+				navbar
+				mb-2
+				p-5
+				shadow-lg
+				bg-neutral
+				text-neutral-content
+				w-full
+				hidden
+				z-10
+				sm:flex
+				sm:mb-20
+			">
+			<div class="flex-none px-2 pt-4 mx-2">
+				<span class="text-lg font-bold text-primary"> Lucky </span>
+			</div>
+			<div class="flex-1 px-2 pt-4 mx-2">
+				<div class="items-stretch hidden sm:flex">
+					<a class="btn btn-ghost btn-sm rounded-lg hover:bg-primary" href="#">Home</a>
+					<a class="btn btn-ghost btn-sm rounded-lg hover:bg-primary" href="#about">About</a>
+					<a class="btn btn-ghost btn-sm rounded-lg hover:bg-primary" href="#experiance">Experiance</a>
+					<a class="btn btn-ghost btn-sm rounded-lg hover:bg-primary" href="#project">Project</a>
+					<a class="btn btn-ghost btn-sm rounded-lg hover:bg-primary" href="#contact">Contact</a>
 				</div>
 			</div>
-		</nav>
+		</div>
+		<!-- End Navbar -->
 
-		<section id="hero-section">
-			<div class="jumbotron jumbotron-fluid hero">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-lg-6">
-							<div id="greeting-container">
-								<h4
-									class="secondary-lucky-brand-color"
-									id="greeting-text"
-								>
-									Hai! saya
-								</h4>
-								<h2 class="hvr-grow" id="lucky-name">
-									<span class="lucky-brand-color">Lucky</span>
-									<span class="secondary-lucky-brand-color"
-										>Tri Bhakti</span
-									>
-								</h2>
-								<div class="row">
-									<div
-										class="col-2 col-sm-1 col-md-3 col-lg-1 social-media"
-									>
-										<a
-											rel="noreferrer"
-											href="http://github.com/Lucky7Tb"
-											target="_blank"
-											class="hvr-grow"
-										>
-											<img
-												src="./img/Icon/Github.svg"
-												alt="Github.com"
-											/>
-										</a>
-									</div>
-										<div
-										class="col-2 col-sm-1 col-md-3 col-lg-1 social-media"
-									>
-										<a
-											rel="noreferrer"
-											href="https://luckytribhakti.medium.com"
-											target="_blank"
-											class="hvr-grow"
-										>
-											<img
-												src="./img/Icon/Medium.svg"
-												alt="medium:Lucky101Tri"
-											/>
-										</a>
-									</div>
-									<div
-										class="col-2 col-sm-1 col-md-3 col-lg-1 social-media"
-									>
-										<a
-											rel="noreferrer"
-											href="mailto:Luckytri101@gmail.com"
-											target="_blank"
-											class="hvr-grow"
-										>
-											<img
-												src="./img/Icon/Email.svg"
-												alt="Luckytri101@gmail.com"
-											/>
-										</a>
-									</div>
-								</div>
-								<div id="button-cta-container">
-									<a
-										href="#contact-section"
-										class="btn button-outline btn-lg mt-4"
-										id="button-cta"
-										>Contact Me</a
-									>
-								</div>
-							</div>
+		<!-- Hero Section -->
+		<div class="hero min-h-screen bg-base-100 sm:min-h-full -mt-4" >
+			<div class="hero-content flex-col lg:flex-row-reverse justify-around">
+				<div class="hidden sm:hidden xl:block">
+					<img src="img/me.webp" class="max-w-xl rounded-lg" />
+				</div>
+				<div class="flex flex-col text-center xl:text-left">
+					<h1 class="mb-5 text-5xl font-bold">Hello,</h1>
+					<h1 class="mb-5 text-5xl font-bold">
+						I'm <span class="text-primary">Lucky</span> Tri Bhakti
+					</h1>
+					<h1 class="mb-5 text-5xl font-bold">
+						<span class="text-primary">Web</span> Developer
+					</h1>
+					<div class="flex flex-row justify-center xl:justify-start mt-5">
+						<div class="mr-5">
+							<a href="https://github.com/Lucky7Tb" rel="nooppener">
+								<img src="img/Icon/Github.svg" class="hvr-grow" alt="github" loading="lazy" />
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-6">
-							<div id="my-image-container"></div>
+						<div class="mr-5">
+							<a href="https://luckytribhakti.medium.com/" rel="nooppener">
+								<img src="img/Icon/Medium.svg" class="hvr-grow" alt="medium" loading="lazy" />
+							</a>
+						</div>
+						<div>
+							<a href="https://www.linkedin.com/in/luckytribhakti/" rel="nooppener">
+								<img src="img/Icon/Linkedin.svg" class="hvr-grow" alt="linkedin" loading="lazy" />
+							</a>
 						</div>
 					</div>
+					<button class="btn btn-primary rounded-lg mt-10 w-full sm:w-36 sm:mx-auto xl:ml-0">
+						Get In Touch
+					</button>
 				</div>
 			</div>
-		</section>
+		</div>
+		<!-- End Hero Section -->
 
-		<section id="about-section">
-			<div class="jumbotron jumbotron-fluid" id="about">
-				<div class="container">
-					<h4
-						class="text-center mt-1"
-						style="font-size: 48px; font-weight: 600"
-					>
-						<span class="dark-lucky-brand-color">About</span>
-						<span class="lucky-brand-color">Me</span>
-					</h4>
-					<div class="divider"></div>
-
-					<div id="about-container">
-						<div class="row">
-							<div class="col-12 col-sm-6">
-								<h2
-									class="text-center"
-									style="font-weight: 600"
-								>
-									<span class="dark-lucky-brand-color"
-										>I'</span
-									><span class="lucky-brand-color">M</span>
-								</h2>
-								<p
-									class="lead mt-5 dark-secondary-lucky-brand-color"
-									style="font-weight: 400"
-								>
-									Seorang  mahasiswa  yang 
-									selalu    bekerja  keras  dan  tidak 
-									takut  untuk  belajar  sesuatu 
-									y ang  baru.  Say a  memiliki  minat 
-									y ang  besar  saat  pada 
-									pemograman  khususny a  dunia 
-									web.  Setelah  sa y a  lulus,  say a 
-									ingin  melanjutkan  studi  say a 
-									sambil  bekerja  menjadi  web 
-									developer
-								</p>
-							</div>
-							<div class="col-12 col-sm-6">
-								<h2 class="text-center">
-									<span class="lucky-brand-color"
-										>Skills</span
-									>
-								</h2>
-								<div class="row justify-content-center mt-5">
-									<div class="col-12">
-										<div class="row">
-											<div
-												class="col-3 col-sm-3 col-md-3 col-lg-3"
-											>
-												<img
-													src="./img/Icon/Html.svg"
-													alt="HTML"
-													width="50%"
-													class="mx-auto d-block img-fluid skill-icon"
-												/>
-											</div>
-											<div
-												class="col-3 col-sm-3 col-md-3 col-lg-3"
-											>
-												<img
-													src="./img/Icon/Css.svg"
-													alt="CSS"
-													width="50%"
-													class="mx-auto d-block img-fluid skill-icon"
-												/>
-											</div>
-											<div
-												class="col-3 col-sm-3 col-md-3 col-lg-3"
-											>
-												<img
-													src="./img/Icon/Javascript.svg"
-													alt="Javascript"
-													width="50%"
-													class="mx-auto d-block img-fluid skill-icon"
-												/>
-											</div>
-											<div
-												class="col-3 col-sm-3 col-md-3 col-lg-3"
-											>
-												<img
-													src="./img/Icon/PHP.svg"
-													alt="PHP"
-													width="50%"
-													class="mx-auto d-block img-fluid skill-icon"
-												/>
-											</div>
-										</div>
-									</div>
-									<div class="col-12 mt-5">
-										<div class="row">
-											<div
-												class="col-4 col-sm-4 col-md-4 col-lg-4"
-											>
-												<img
-													src="./img/Icon/Bootstrap.svg"
-													alt="Bootstrap"
-													class="mx-auto d-block img-fluid skill-icon bootstrap-icon"
-												/>
-											</div>
-											<div
-												class="col-4 col-sm-4 col-md-4 col-lg-4"
-											>
-												<img
-													src="./img/Icon/Codeigniter.svg"
-													alt="Codeigniter"
-													class="mx-auto d-block img-fluid skill-icon codeigniter-icon"
-												/>
-											</div>
-											<div
-												class="col-4 col-sm-4 col-md-4 col-lg-4"
-											>
-												<img
-													src="./img/Icon/Laravel.svg"
-													alt="Laravel"
-													class="mx-auto d-block img-fluid skill-icon laravel-icon"
-												/>
-											</div>
-										</div>
-									</div>
+		<!-- About Section -->
+		<section class="min-h-screen sm:min-h-full mt-24 sm:mt-10">
+			<div id="about">
+				<div class="p-5 flex flex-col">
+					<div class="mb-20">
+						<h2 class="text-center text-5xl font-bold mb-3 sm:mt-10">
+							About <span class="text-primary">Me</span>
+						</h2>
+						<div class="flex flex-col w-1/2 sm:w-1/3 lg:w-1/6 xl:w-44 mx-auto">
+							<div class="grid h-2 card bg-primary rounded-box place-items-center"></div>
+						</div>
+					</div>
+					<div class="flex flex-col xl:flex-row gap-y-10">
+						<div class="text-center w-full">
+							<h3 class="text-center font-semibold text-4xl">I'm</h3>
+							<p class="mt-5 font-light text-lg lg:text-2xl">
+								A Communicative and hard worker person student from Bandung, study
+								at Telkom University, majoring in diploma software engineering
+								application. Currently spend my time as staff in the student an organization called "Himadira" and as a
+								web division mentor in
+								"Chevalier Lab"
+							</p>
+						</div>
+						<div>
+							<h3 class="text-center font-semibold text-4xl">Skills</h3>
+							<div class="flex flex-col gap-y-20">
+								<div class="
+										grid grid-cols-3
+										sm:grid-cols-4
+										gap-x-3 
+										gap-y-5
+										mt-5
+										sm:mt-10
+									">
+									<img src="img/Icon/Html.svg" alt="HTML" class="w-20 sm:w-1/2 lg:w-1/3 xl:w-1/2 mx-auto hvr-grow" loading="lazy" />
+									<img src="img/Icon/Css.svg" alt="CSS" class="w-20 sm:w-1/2 lg:w-1/3 xl:w-1/2 mx-auto hvr-grow" loading="lazy" />
+									<img src="img/Icon/Javascript.svg" alt="Javascript" class="w-20 sm:w-1/2 lg:w-1/3 xl:w-1/2 mx-auto hvr-grow" loading="lazy" />
+									<img src="img/Icon/PHP.svg" alt="PHP" class="w-20 sm:w-1/2 lg:w-1/3 xl:w-1/2 mx-auto hvr-grow" loading="lazy" />
+									<img src="img/Icon/Bootstrap.svg" alt="Bootstrap" class="w-20 sm:w-1/2 lg:w-1/3 xl:w-1/2 mx-auto hvr-grow" loading="lazy" />
+									<img src="img/Icon/Codeigniter.svg" alt="Codeigniter" class="w-20 sm:w-1/2 lg:w-1/3 xl:w-1/2 mx-auto hvr-grow" loading="lazy" />
+									<img src="img/Icon/Laravel.svg" alt="Laravel" class="w-20 sm:w-1/2 lg:w-1/3 xl:w-1/2 mx-auto hvr-grow" loading="lazy" />
+									<img src="img/Icon/Vue.svg" alt="Laravel" class="w-20 sm:w-1/2 lg:w-1/3 xl:w-1/2 mx-auto hvr-grow" loading="lazy" />
 								</div>
 							</div>
 						</div>
@@ -291,102 +133,46 @@
 				</div>
 			</div>
 		</section>
+		<!-- End About Section -->
 
-		<section id="experiance-section">
-			<div class="jumbotron jumbotron-fluid" id="experiance">
-				<div class="container">
-					<h4
-						class="text-center mt-1"
-						style="font-size: 48px; font-weight: 600"
-					>
-						<span class="lucky-brand-color">Experiance</span>
-					</h4>
-					<div class="divider"></div>
-
-					<div class="mt-5">
-						<div class="row">
-							<div class="col-12 col-sm-6">
-								<div
-									class="box-container-experiance hvr-grow-shadow hvr-glow rounded"
-								>
-									<div class="container mt-5">
-										<h6
-											class="text-center lucky-brand-color"
-											style="
-												font-weight: 600;
-												font-size: 24px;
-											"
-										>
-											Pt Inovasi Putra Nusantara
-										</h6>
-										<h3
-											class="text-center dark-lucky-brand-color"
-											style="font-size: 24px"
-										>
-											Fullstack Developer
-										</h3>
-										<p
-											class="lead text-center dark-lucky-brand-color pt-3"
-											style="font-weight: 200"
-										>
-											Sebagai siswa PKL dari SMK. Di
-											posisikan pada bagian Fullstack
-											Developer dan bekerja secara team.
-											Mempunyai tugas untuk membuat web
-											app yang berguna sebagai melihat
-											data statistik suatu kota, yang
-											menggunakan teknologi GIS.
-										</p>
-										<a
-											class="btn button-outline mx-auto d-block shadow-sm"
-											rel="noreferrer"
-											href="https://sociocaster.com"
-											target="_blank"
-											>Go To Sociocaster</a
-										>
-									</div>
+		<!-- Experiance Section -->
+		<section class="min-h-screen sm:min-h-full mt-24 sm:mt-10">
+			<div id="experiance">
+				<div class="p-5 flex flex-col">
+					<div class="mb-10">
+						<h2 class="text-center text-5xl font-bold mb-3 sm:mt-10">
+							Experiance
+						</h2>
+						<div class="flex flex-col w-1/2 sm:w-1/3 lg:w-1/5 xl:w-52 mx-auto">
+							<div class="grid h-2 card bg-primary rounded-box place-items-center"></div>
+						</div>
+					</div>
+					<div class="mt-5 p-5">
+						<div class="flex flex-col lg:flex-row gap-y-5 sm:gap-x-5">
+							<div class="card bg-base-200 shadow-lg sm:full hvr-grow">
+								<div class="card-body">
+									<h2 class="card-title font-bold text-3xl text-center">Pt Inovasi Putra Nusantara</h2>
+									<h3 class="card-title font-semibold text-2xl text-center text-primary">Fullstack Web Developer</h3>
+									<p class="text-center text-xl text-light">
+										As an intern, create a web app that is useful for see the population density in the city. work as a
+										small team with my friends, very fun journey because I learn a lot about Yii 2 framework and version
+										control.
+									</p>
+									<a href="https://www.facebook.com/inovasiputranusantara" target="_blank" rel="nooppener"
+										class="btn btn-primary rounded-lg mt-5 w-full sm:w-40 sm:mx-auto">More info</a>
 								</div>
 							</div>
-							<div class="col-12 col-sm-6">
-								<div
-									class="box-container-experiance hvr-grow-shadow hvr-glow rounded"
-								>
-									<div class="container mt-5">
-										<h6
-											class="text-center lucky-brand-color"
-											style="
-												font-weight: 600;
-												font-size: 24px;
-											"
-										>
-											Simple School
-										</h6>
-										<h3
-											class="text-center dark-lucky-brand-color"
-											style="font-size: 24px"
-										>
-											Fullstack Developer
-										</h3>
-										<p
-											class="lead text-center dark-lucky-brand-color pt-3"
-											style="font-weight: 200"
-										>
-											Sebagai pekerja freelance. Di
-											posisikan pada bagian Fullstack
-											Developer dan bekerja secara team.
-											Mempunyai tugas untuk membuat API 
-											serta mengimplementasikannya pada frontend
-											yang digunakan untuk aplikasi CMS
-											sekolah.
-										</p>
-										<a
-											class="btn button-outline mx-auto d-block shadow-sm"
-											rel="noreferrer"
-											href="https://simpleschooldev.com"
-											target="_blank"
-											>Go To SimpleSchool</a
-										>
-									</div>
+							<div class="card bg-base-200 shadow-lg sm:full hvr-grow">
+								<div class="card-body">
+									<h2 class="card-title font-bold text-3xl text-center">Simple School</h2>
+									<h3 class="card-title font-semibold text-2xl text-center text-primary">Fullstack Web Developer</h3>
+									<p class="text-center text-xl text-light">
+										Create a CMS for schools, so that schools can have a website in a minute. Work as a small team with
+										my friends, very fun and exciting project. In this project, I learn a lot about Vue.js, laravel, and
+										team management.
+									</p>
+									<a href="https://simpleschooldev.com/" target="_blank" rel="nooppener"
+										class="btn btn-primary rounded-lg mt-5 sm:w-40 sm:mx-auto">More info</a>
 								</div>
 							</div>
 						</div>
@@ -394,401 +180,265 @@
 				</div>
 			</div>
 		</section>
+		<!-- End Experiance Section -->
 
-		<section id="project-section">
-			<div
-				class="jumbotron jumbotron-fluid bg-lucky-brand-color"
-				id="project"
-			>
-				<div class="container">
-					<h4
-						class="text-center mt-1"
-						style="font-size: 48px; font-weight: 600"
-					>
-						<span class="lucky-brand-color">My </span
-						><span class="dark-lucky-brand-color">Project</span>
-					</h4>
-					<div class="divider"></div>
-					<div class="container">
-						<nav class="mt-5">
-							<div
-								class="nav nav-pills nav-justified"
-								id="nav-tab"
-								role="tablist"
-							>
-								<a
-									class="nav-item nav-link active dark-lucky-brand-color"
-									id="nav-web-project-tab"
-									data-toggle="tab"
-									href="#nav-web-project"
-									role="tab"
-									aria-controls="nav-web-project"
-									aria-selected="true"
-									>Web</a
-								>
-								<a
-									class="nav-item nav-link dark-lucky-brand-color"
-									id="nav-mobile-project-tab"
-									data-toggle="tab"
-									href="#nav-mobile-project"
-									role="tab"
-									aria-controls="nav-mobile-project"
-									aria-selected="false"
-									>Mobile</a
-								>
-							</div>
-						</nav>
-						<div class="tab-content" id="nav-tabContent">
-							<div
-								class="tab-pane fade show active"
-								id="nav-web-project"
-								role="tabpanel"
-								aria-labelledby="nav-web-project-tab"
-							>
-								<div class="row mt-3">
-									<div class="col-12 col-sm-6">
-										<figure class="imghvr-blur">
-											<img
-												src="./img/Project/gis_mapping.webp"
-												alt="Gis Mapping"
-												class="img-fluid"
-											/>
-											<figcaption>
-												<h5>Gis Mapping</h5>
-												<p class="lead">
-													Aplikasi web yang berguna
-													untuk mengetahui data
-													statistika suatu kota
-													menggunakan metode GIS.
-													Project ini dibuat pada saat
-													PKL di Sociocaster.
-													Stack yang digunnakan adalah:
-													Yii 2, Bootstrap 3, MariaDb
-												</p>
-												<a href="#"></a>
-											</figcaption>
-										</figure>
-									</div>
-									<div class="col-12 col-sm-6">
-										<figure class="imghvr-blur">
-											<img
-												src="./img/Project/booking_tiket.webp"
-												alt="Booking Tiket"
-												class="img-fluid"
-											/>
-											<figcaption>
-												<h5>Booking Tiket Kereta</h5>
-												<p class="lead">
-													Aplikasi web yang berguna
-													untuk booking tiket kereta api.
-													Aplikasi ini diperuntukan untuk tugas akhir sekolah tingkat 2.
-													Stack yang digunakan:
-													Yii 2, Bootstrap 3, Mariadb
-												</p>
-												<a
-													rel="noreferrer"
-													href="https://github.com/Lucky7Tb/Book-Tiket-KRL"
-													target="_blank"
-												></a>
-											</figcaption>
-										</figure>
+		<!-- Project Section -->
+		<section class="min-h-screen sm:min-h-full mt-24 sm:mt-10">
+			<div id="project">
+				<div class="flex flex-col">
+					<div class="mb-3">
+						<h2 class="text-center text-5xl font-bold mb-3 sm:mt-16">
+							Project
+						</h2>
+						<div class="flex flex-col w-1/2 sm:w-1/5 lg:w-1/6 xl:w-40 mx-auto">
+							<div class="grid h-2 card bg-primary rounded-box place-items-center"></div>
+						</div>
+					</div>
+					<div class="p-10">
+						<div class="tabs justify-center">
+							<a href="#" class="tab hover:text-primary text-xl tab-active tab-lifted" id="web-tab">Web</a>
+							<a href="#" class="tab hover:text-primary text-xl" id="mobile-tab">Mobile</a>
+						</div>
+
+						<div class="flex flex-col justify-center gap-y-5 mt-5" id="web-content">
+							<div class="grid grid-cols-1 gap-y-5 sm:grid-cols-1 lg:grid-cols-2 sm:gap-x-5">
+								<div class="border mockup-window bg-base-300 w-full">
+									<label for="findart_project_modal" class="modal-button">
+										<div class="flex justify-center px-4 py-16 border-t border-base-300 h-96 hover:bg-red-400"
+											style="background-image: url('img/Project/find_art.png'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+										</div>
+									</label>
+									<input type="checkbox" id="findart_project_modal" class="modal-toggle">
+									<div class="modal">
+										<div class="modal-box">
+											<h4 class="text-center text-xl font-bold">Findart</h4>
+											<p class="text-center font-light">
+												Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt error tempore odio, dicta in
+												sunt voluptate enim consectetur ipsum placeat accusantium quam aliquid porro ea molestiae
+												pariatur non reprehenderit magni?
+											</p>
+											<div class="modal-action">
+												<label for="findart_project_modal" class="btn btn-outline">Close</label>
+
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="row mt-3">
-									<div class="col-12 col-sm-6">
-										<figure class="imghvr-blur">
-											<img
-												src="./img/Project/Inventory.webp"
-												alt="Inventory"
-												class="img-fluid"
-											/>
-											<figcaption>
-												<h5>Inventory</h5>
-												<p class="lead">
-													Aplikasi web inventory yang
-													berguna untuk mendata data
-													barang masuk dan barang
-													keluar, dan mendata
-													peminjaman. Project ini
-													dibuat untuk memenuhi tugas
-													akhir pemrograman web, dan
-													PKWU. Stack yang digunakan :
-													Laravel 5.8, Bootstrap 4, MariaDb
-												</p>
-												<a
-													rel="noreferrer"
-													href="https://github.com/Lucky7Tb/InventoryTKI"
-													target="_blank"
-												></a>
-											</figcaption>
-										</figure>
-									</div>
-									<div class="col-12 col-sm-6">
-										<figure class="imghvr-blur">
-											<img
-												src="./img/Project/simple_school.webp"
-												alt="Simple School"
-												class="img-fluid"
-											/>
-											<figcaption>
-												<h5>SimpleSchool</h5>
-												<p class="lead">
-													Project web cms sekolah.
-													Tugas saya adalah
-													membuat API dan mengimplementasikannya.
-													Project ini dibuat untuk
-													sekolah yang memerlukan
-													sebuah landing page
-													sekolah. Stack yang digunakan:
-													Laravel 5.8, Vue 2, Vuesax 2, MariaDb
-												</p>
-												<a
-													rel="noreferrer"
-													href="https://simpleschooldev.com"
-													target="_blank"
-												></a>
-											</figcaption>
-										</figure>
+
+								<div class="border mockup-window border-base-300 w-full">
+									<label for="bc_project_modal" class="modal-button">
+										<div class="flex justify-center px-4 py-16 border-t border-base-300 h-96 hover:bg-red-400"
+											style="background-image: url('img/Project/bakers_corner.png'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+										</div>
+									</label>
+									<input type="checkbox" id="bc_project_modal" class="modal-toggle">
+									<div class="modal">
+										<div class="modal-box">
+											<h4 class="text-center text-xl font-bold">Baker's Corner</h4>
+											<p class="text-center font-light">
+												Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt error tempore odio, dicta in
+												sunt voluptate enim consectetur ipsum placeat accusantium quam aliquid porro ea molestiae
+												pariatur non reprehenderit magni?
+											</p>
+											<div class="modal-action">
+												<label for="bc_project_modal" class="btn btn-outline">Close</label>
+
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div
-								class="tab-pane fade"
-								id="nav-mobile-project"
-								role="tabpanel"
-								aria-labelledby="nav-mobile-project-tab"
-							>
-								<div class="row mt-3">
-									<div class="col-12 col-sm-6">
-										<a
-											rel="noreferrer"
-											href="https://github.com/Lucky7Tb/CovidMobile"
-											target="_blank"
-										>
-											<img
-												src="./img/Project/covid_mobile.webp"
-												alt="Covid Mobile"
-												width="50%"
-												class="mx-auto d-block img-fluid"
-											/>
-										</a>
-										<h4
-											class="text-center lucky-brand-color"
-											style="font-weight: 500"
-										>
-											Covid Mobile App
-										</h4>
+							<div class="grid grid-cols-1 gap-y-5 sm:grid-cols-1 lg:grid-cols-2 sm:gap-x-5">
+								<div class="border mockup-window bg-base-300 w-full">
+									<label for="inventory_project_modal" class="modal-button">
+										<div class="flex justify-center px-4 py-16 border-t border-base-300 h-96 hover:bg-red-400"
+											style="background-image: url('img/Project/Inventory.webp'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+										</div>
+									</label>
+									<input type="checkbox" id="inventory_project_modal" class="modal-toggle">
+									<div class="modal">
+										<div class="modal-box">
+											<h4 class="text-center text-xl font-bold">Inventory</h4>
+											<p class="text-center font-light">
+												Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt error tempore odio, dicta in
+												sunt voluptate enim consectetur ipsum placeat accusantium quam aliquid porro ea molestiae
+												pariatur non reprehenderit magni?
+											</p>
+											<div class="modal-action">
+												<label for="inventory_project_modal" class="btn btn-outline">Close</label>
+
+											</div>
+										</div>
 									</div>
-									<div
-										class="col-12 col-sm-6 mx-auto d-block"
-									>
-										<a
-											rel="noreferrer"
-											href="https://github.com/Lucky7Tb/InventoryMobile"
-											target="_blank"
-										>
-											<img
-												src="./img/Project/inventory_mobile.webp"
-												alt="Inventory Mobile"
-												width="50%"
-												class="mx-auto d-block img-fluid"
-											/>
-										</a>
-										<h4
-											class="text-center lucky-brand-color"
-											style="font-weight: 500"
-										>
-											Inventory Mobile App
-										</h4>
+								</div>
+
+								<div class="border mockup-window border-base-300 w-full">
+									<label for="simpleschool_project_modal" class="modal-button">
+										<div class="flex justify-center px-4 py-16 border-t border-base-300 h-96 hover:bg-red-400"
+											style="background-image: url('img/Project/simple_school.webp'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+										</div>
+									</label>
+									<input type="checkbox" id="simpleschool_project_modal" class="modal-toggle">
+									<div class="modal">
+										<div class="modal-box">
+											<h4 class="text-center text-xl font-bold">Simple School</h4>
+											<p class="text-center font-light">
+												Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt error tempore odio, dicta in
+												sunt voluptate enim consectetur ipsum placeat accusantium quam aliquid porro ea molestiae
+												pariatur non reprehenderit magni?
+											</p>
+											<div class="modal-action">
+												<label for="simpleschool_project_modal" class="btn btn-outline">Close</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="grid grid-cols-1 gap-y-5 sm:grid-cols-1 lg:grid-cols-2 sm:gap-x-5">
+								<div class="border mockup-window border-base-300 w-full">
+									<label for="gis_project_modal" class="modal-button">
+										<div class="flex justify-center px-4 py-16 border-t border-base-300 h-96 hover:bg-red-400"
+											style="background-image: url('img/Project/gis_mapping.webp'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+										</div>
+									</label>
+									<input type="checkbox" id="gis_project_modal" class="modal-toggle">
+									<div class="modal">
+										<div class="modal-box">
+											<h4 class="text-center text-xl font-bold">Gis Mapping</h4>
+											<p class="text-center font-light">
+												Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt error tempore odio, dicta in
+												sunt voluptate enim consectetur ipsum placeat accusantium quam aliquid porro ea molestiae
+												pariatur non reprehenderit magni?
+											</p>
+											<div class="modal-action">
+												<label for="gis_project_modal" class="btn btn-outline">Close</label>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="border mockup-window border-base-300 w-full">
+									<label for="ticket_project_modal" class="modal-button">
+										<div class="flex justify-center px-4 py-16 border-t border-base-300 h-96 hover:bg-red-400"
+											style="background-image: url('img/Project/booking_tiket.webp'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+										</div>
+									</label>
+									<input type="checkbox" id="ticket_project_modal" class="modal-toggle">
+									<div class="modal">
+										<div class="modal-box">
+											<h4 class="text-center text-xl font-bold">Book Ticket KRL</h4>
+											<p class="text-center font-light">
+												Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt error tempore odio, dicta in
+												sunt voluptate enim consectetur ipsum placeat accusantium quam aliquid porro ea molestiae
+												pariatur non reprehenderit magni?
+											</p>
+											<div class="modal-action">
+												<label for="ticket_project_modal" class="btn btn-outline">Close</label>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</section>
 
-		<section id="contact-section">
-			<div class="jumbotron jumbotron-fluid bg" id="contact">
-				<div class="container">
-					<h4
-						class="text-center mt-1"
-						style="font-size: 48px; font-weight: 600"
-					>
-						<span class="lucky-brand-color">Contact</span>
-					</h4>
-					<div class="divider"></div>
-					<div id="contact-container">
-						<div class="row">
-							<div class="col-12 col-sm-6">
-								<div id="map"></div>
-							</div>
-							<div class="col-12 col-sm-6">
-								<form id="contact-form">
-									<div class="row">
-										<div class="col-12 col-sm-6">
-											<div class="form-group">
-												<label
-													for="email"
-													class="secondary-lucky-brand-color"
-													>Email</label
-												>
-												<input
-													type="email"
-													name="email"
-													id="email"
-													class="form-control"
-													required
-												/>
+						<div class="hidden flex-col items-center justify-center gap-y-5 mt-5" id="mobile-content">
+							<div class="grid grid-cols-1 gap-y-5 sm:grid-cols-2 sm:gap-x-5">
+								<div class="flex flex-col items-center justify-center">
+									<label for="env_mobile_project_modal" class="modal-button">
+										<img src="img/Project/inventory_mobile.webp" class="mx-auto" width="80%" alt="inventory_mobile">
+									</label>
+									<input type="checkbox" id="env_mobile_project_modal" class="modal-toggle">
+									<div class="modal">
+										<div class="modal-box">
+											<h4 class="text-center text-xl font-bold">Inventory Mobil</h4>
+											<p class="text-center font-light">
+												Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt error tempore odio, dicta in
+												sunt voluptate enim consectetur ipsum placeat accusantium quam aliquid porro ea molestiae
+												pariatur non reprehenderit magni?
+											</p>
+											<div class="modal-action">
+												<label for="env_mobile_project_modal" class="btn btn-outline">Close</label>
 											</div>
-										</div>
-										<div class="col-12 col-sm-6">
-											<div class="form-group">
-												<label
-													for="subject"
-													class="secondary-lucky-brand-color"
-													>Subject</label
-												>
-												<input
-													type="text"
-													name="subject"
-													id="subject"
-													class="form-control"
-												/>
-											</div>
-										</div>
-										<div class="col-12 col-sm-12">
-											<div class="form-group">
-												<label
-													for="message"
-													class="secondary-lucky-brand-color"
-													>Pesan</label
-												>
-												<textarea
-													name="message"
-													id="message"
-													cols="30"
-													rows="10"
-													class="form-control"
-												></textarea>
-											</div>
-										</div>
-										<div class="col-12">
-											<button
-												class="btn button-outline btn-lg"
-												id="btn-send"
-											>
-												Kirim
-											</button>
 										</div>
 									</div>
-								</form>
+									<h2 class="text-center text-xl font-semibold">Inventory Mobile</h2>
+								</div>
+								<div class="flex flex-col items-center justify-center">
+									<label for="covid_mobile_project_modal" class="modal-button">
+										<img src="img/Project/covid_mobile.webp" class="mx-auto" width="80%" alt="covid_mobile">
+									</label>
+									<input type="checkbox" id="covid_mobile_project_modal" class="modal-toggle">
+									<div class="modal">
+										<div class="modal-box">
+											<h4 class="text-center text-xl font-bold">Inventory Mobil</h4>
+											<p class="text-center font-light">
+												Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt error tempore odio, dicta in
+												sunt voluptate enim consectetur ipsum placeat accusantium quam aliquid porro ea molestiae
+												pariatur non reprehenderit magni?
+											</p>
+											<div class="modal-action">
+												<label for="covid_mobile_project_modal" class="btn btn-outline">Close</label>
+											</div>
+										</div>
+									</div>
+									<h2 class="text-center text-xl font-semibold">Covid Mobile</h2>
+								</div>
 							</div>
 						</div>
 					</div>
+		</section>
+		<!-- End Project Section -->
+
+		<!-- Contact section -->
+		<section class="min-h-full mt-10 mb-16">
+			<div id="contact">
+				<div class="flex flex-col">
+					<div class="mb-3">
+						<h2 class="text-center text-5xl font-bold mb-3 sm:mt-16">
+							Contact
+						</h2>
+						<div class="flex flex-col w-1/2 sm:w-1/5 xl:w-40 mx-auto">
+							<div class="grid h-2 card bg-primary rounded-box place-items-center"></div>
+						</div>
+					</div>
+					<form id="contact-form" class="p-5">
+						<div class="flex flex-col justify-center items-center gap-y-3">
+							<div class="flex flex-col gap-y-3">
+								<div class="flex flex-col gap-y-3">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" class="input input-primary input-bordered w-full"
+										placeholder="e.g myemail@mail.com" required />
+								</div>
+								<div class="flex flex-col gap-y-3">
+									<label for="subject">Subject</label>
+									<input type="text" name="subject" id="subject" class="input input-primary input-bordered w-full"
+										placeholder="I want to ..." required />
+								</div>
+							</div>
+							<div class="flex flex-col gap-y-3">
+								<div class="flex flex-col gap-y-3">
+									<label for="message">Message</label>
+									<textarea class="textarea h-24 textarea-bordered textarea-primary"
+										placeholder="Hallo Lucky ..." id="message"></textarea>
+									<div class="mt-3">
+										<button class="btn btn-primary rounded-full w-full" id="btn-send">
+											Send
+										</button>
+									</div>
+								</div>
+							</div>
+					</form>
 				</div>
 			</div>
 		</section>
 
-		<nav
-			class="navbar bottom navbar-light bg-dark-primary-lucky-brand-color justify-content-center"
-		>
-			<p class="text-center secondary-lucky-brand-color">
-				&copy; <span id="year"></span>, Lucky Tri Bhakti - Made With
-				<svg
-					class="bi bi-heart-fill"
-					width="1em"
-					height="1em"
-					viewBox="0 0 16 16"
-					fill="red"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						fill-rule="evenodd"
-						d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
-						clip-rule="evenodd"
-					/>
-				</svg>
-			</p>
-		</nav>
+		<footer class="p-4 footer bg-primary text-base-content footer-center text-lg">
+			<div>
+				<p>Copyright © <span id="year"></span> - Lucky Tri Bhakti - Made With ❤</p>
+			</div>
+		</footer>
 
-		<script
-			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"
-			integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-			crossorigin=""
-		></script>
-		<script src="./js/notyf.js"></script>
-		<script>
-			const date = new Date();
-			document.getElementById("year").innerHTML = date.getFullYear();
-
-			const mymap = L.map("map", {
-				scrollWheelZoom: false
-			}).setView([-6.975428, 107.575144], 15);
-			const streetLayer = L.tileLayer(
-				"https://{s}.tile.osm.org/{z}/{x}/{y}.png",
-				{
-					attribution:
-						'&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors',
-				}
-			).addTo(mymap);
-			const marker = L.marker([-6.975428, 107.575144]).addTo(mymap);
-
-			$(document).ready(function () {
-				const alert = new Notyf({
-					duration: 3000,
-				});
-				const emailField = document.getElementById("email");
-				const messageField = document.getElementById("message");
-				const buttonSend = document.getElementById("btn-send");
-				const contactForm = document.getElementById("contact-form");
-				const regexEmail = /^[\w\.\-_]{1,}@[\w\.\-]{6,}/;
-				let data;
-				buttonSend.addEventListener("click", function (event) {
-					event.preventDefault();
-					if (emailField.value != "" && messageField.value != "") {
-						if (regexEmail.test(email.value)) {
-							data = new FormData(contactForm);
-							const xhr = new XMLHttpRequest();
-							xhr.open("POST", "https://formspree.io/mknvaoov");
-							xhr.setRequestHeader("Accept", "application/json");
-							xhr.onreadystatechange = function () {
-								if (xhr.readyState !== XMLHttpRequest.DONE)
-									return;
-								if (xhr.status === 200) {
-									alert.success("Berhasil mengirim pesan");
-									contactForm.reset();
-								} else {
-									alert.error(
-										"Oops! Gagal mengirim pesan. Silahkan coba lagi nanti"
-									);
-								}
-							};
-							xhr.send(data);
-						} else {
-							alert.error("Harap masukan email yang valid");
-						}
-					} else {
-						alert.error("Email dan pesan tidak boleh kosong");
-					}
-				});
-			});
-		</script>
+		<script src="js/app.js"></script>
 	</body>
+
 </html>
