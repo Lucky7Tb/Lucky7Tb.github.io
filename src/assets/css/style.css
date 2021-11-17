@@ -1,0 +1,29 @@
+.project-bg {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.findart {
+	background-image: url('~@/assets/img/project/find_art.png');
+}
+
+.bakers-corner {
+	background-image: url('~@/assets/img/project/bakers_corner.png');
+}
+
+.inventory {
+	background-image: url('~@/assets/img/project/inventory.webp');
+}
+
+.simple-school {
+	background-image: url('~@/assets/img/project/simple_school.webp');
+}
+
+.gis-mapping {
+	background-image: url('~@/assets/img/project/gis_mapping.webp');
+}
+
+.book-ticket {
+	background-image: url('~@/assets/img/project/booking_tiket.webp');
+}
