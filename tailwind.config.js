@@ -1,5 +1,5 @@
 module.exports = {
-	purge: ['./src/index.html'],
+	purge: ['./public/**/*.html', './src/**/*.vue'],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {},
@@ -10,7 +10,7 @@ module.exports = {
 	plugins: [require('daisyui')],
 	daisyui: {
 		themes: [
-			'emerald', // and some pre-defined theme
+			'emerald',
 			'forest',
 		],
 	},
