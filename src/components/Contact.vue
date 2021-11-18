@@ -38,21 +38,19 @@
 							</div>
 						</div>
 						<div class="flex flex-col gap-y-3">
-							<div class="flex flex-col gap-y-3">
-								<label for="message">Message</label>
-								<textarea
-									class="textarea h-24 textarea-bordered textarea-primary"
-									placeholder="Hallo Lucky ..."
-									id="message"
-								></textarea>
-								<div class="mt-3">
-									<button
-										class="btn btn-primary rounded-full w-full"
-										id="btn-send"
-									>
-										Send
-									</button>
-								</div>
+							<label for="message">Message</label>
+							<textarea
+								class="textarea h-24 textarea-bordered textarea-primary"
+								placeholder="Hallo Lucky ..."
+								id="message"
+							></textarea>
+							<div class="mt-3">
+								<button
+									class="btn btn-primary rounded-full w-full"
+									id="btn-send"
+								>
+									Send
+								</button>
 							</div>
 						</div>
 					</div>
