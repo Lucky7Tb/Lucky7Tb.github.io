@@ -122,6 +122,23 @@
 									loading="lazy"
 								/>
 								<img
+									src="@/assets/img/icon/Materializecss.svg"
+									alt="Materializecss"
+									class="
+										w-32
+										sm:w-3/4
+										lg:w-1/3
+										xl:w-32
+										mx-auto
+										transition
+										duration-300
+										ease-in-out
+										transform
+										hover:scale-125
+									"
+									loading="lazy"
+								/>
+								<img
 									src="@/assets/img/icon/Codeigniter.svg"
 									alt="Codeigniter"
 									class="
@@ -141,6 +158,23 @@
 								<img
 									src="@/assets/img/icon/Laravel.svg"
 									alt="Laravel"
+									class="
+										w-20
+										sm:w-1/2
+										lg:w-1/3
+										xl:w-1/2
+										mx-auto
+										transition
+										duration-300
+										ease-in-out
+										transform
+										hover:scale-125
+									"
+									loading="lazy"
+								/>
+								<img
+									src="@/assets/img/icon/Express.svg"
+									alt="Express"
 									class="
 										w-20
 										sm:w-1/2
