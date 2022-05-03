@@ -9,7 +9,7 @@
 			<Contact />
 			<a
 				href="#"
-				class="fixed z-50 bottom-5 right-5 btn btn-primary btn-primary"
+				class="fixed z-50 bottom-5 right-5 btn btn-primary btn-primary shadow-lg"
 			>
 				<img src="@/assets/img/icon/UpArrow.svg" alt="Arrow" />
 			</a>

@@ -9,9 +9,30 @@
 			text-neutral-content
 			w-full
 			z-10
-			sm:flex sm:mb-20
+			sm:flex 
+			fixed
+			top-0
 		"
 	>
+		<div class="flex-none flex sm:hidden">
+			<div class="dropdown">
+				<label 
+					tabindex="0" 
+					class="btn btn-circle border-0 bg-transparent"
+					:class="`${lightTheme ? 'text-black' : 'text-white'} ${lightTheme ? 'hover:bg-gray-300' : 'hover:bg-base-300'}`">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+				</label>
+				<ul 
+					tabindex="0" 
+					class="menu menu-compact dropdown-content mt-3 p-2 shadow-lg rounded-box w-52 bg-base-100"
+					:class="lightTheme ? 'text-primary' : null">
+					<li><a href="#about">About</a></li>
+					<li><a href="#experiance">Experiance</a></li>
+					<li><a href="#project">Project</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
 		<div class="hidden sm:flex flex-none px-2 mx-2">
 			<p class="text-2xl font-bold text-primary mb-1">Lucky</p>
 		</div>

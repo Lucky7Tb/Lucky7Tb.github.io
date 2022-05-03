@@ -19,9 +19,7 @@
 						<p class="mt-5 font-light text-lg lg:text-2xl">
 							A Communicative and hard worker person student from Bandung, study
 							at Telkom University, majoring in diploma software engineering
-							application. Currently spend my time as staff in the student an
-							organization called "Himadira" and as a web division mentor in
-							"Chevalier Lab"
+							application. Currently spend my time as a mentor at <a href="https://www.instagram.com/chevalierlab_sas/" target="_blank" class="text-primary font-bold">Chevalier lab</a> teaching a web development espescially in front end web development using vue js
 						</p>
 					</div>
 					<div>

@@ -1,6 +1,6 @@
 <template>
 	<!-- Hero Section -->
-	<div class="hero min-h-screen bg-base-100 sm:min-h-full -mt-4">
+	<div class="hero min-h-screen bg-base-100 sm:min-h-full mt-0 sm:mt-16">
 		<div class="hero-content flex-row lg:flex-row-reverse justify-around">
 			<div class="hidden sm:hidden xl:block ml-48">
 				<lottie-player
