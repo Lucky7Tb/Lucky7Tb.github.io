@@ -4,26 +4,37 @@
 	background-repeat: no-repeat;
 }
 
+.goru {
+	background-image: url('~@/assets/img/project/goru_admin.webp');
+	background-size: contain;
+}
+
 .findart {
 	background-image: url('~@/assets/img/project/find_art.png');
+	background-size: contain;
 }
 
 .bakers-corner {
 	background-image: url('~@/assets/img/project/bakers_corner.png');
+	background-size: contain;
 }
 
 .inventory {
 	background-image: url('~@/assets/img/project/inventory.webp');
+	background-size: contain;
 }
 
 .simple-school {
 	background-image: url('~@/assets/img/project/simple_school.webp');
+	background-size: contain;
 }
 
 .gis-mapping {
 	background-image: url('~@/assets/img/project/gis_mapping.webp');
+	background-size: contain;
 }
 
 .book-ticket {
 	background-image: url('~@/assets/img/project/booking_tiket.webp');
+	background-size: contain;
 }
