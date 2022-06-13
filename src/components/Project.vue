@@ -275,7 +275,7 @@
 											src="@/assets/img/project/goru_mobile.png"
 											class="mx-auto"
 											width="55%"
-											alt="covid_mobile"
+											alt="goru_mobile"
 										/>
 									</label>
 									<input
@@ -286,7 +286,7 @@
 									<div class="modal">
 										<div class="modal-box">
 											<h4 class="text-center text-xl font-bold">
-												Covid Mobile
+												Goru Mobile
 											</h4>
 											<p class="text-center font-light">
 												This application is my campus project. This application is called Goru (Golek Guru) which is mean <i>find teacher</i>. This application is used for student especially the elementary school student until high school student to find online private teacher. Of course student learning online to using meet link the given by teacher. This project build using React Native and Native Base.
