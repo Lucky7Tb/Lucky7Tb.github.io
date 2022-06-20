@@ -72,25 +72,6 @@
 							/>
 						</a>
 					</div>
-					<div>
-						<a
-							href="https://instagram.com/luckytribhakti/"
-							rel="nooppener"
-						>
-							<img
-								src="@/assets/img/icon/Instagram.svg"
-								class="
-									transition
-									duration-300
-									ease-in-out
-									transform
-									hover:scale-125
-								"
-								alt="instagram"
-								loading="lazy"
-							/>
-						</a>
-					</div>
 				</div>
 				<button
 					class="
