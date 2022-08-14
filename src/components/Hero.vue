@@ -73,7 +73,8 @@
 						</a>
 					</div>
 				</div>
-				<button
+				<a
+					href="#contact"
 					class="
 						btn btn-primary
 						rounded-lg
@@ -84,7 +85,7 @@
 					"
 				>
 					Get In Touch
-				</button>
+				</a>
 			</div>
 		</div>
 	</div>
