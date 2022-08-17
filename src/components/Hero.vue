@@ -72,6 +72,25 @@
 							/>
 						</a>
 					</div>
+					<div class="mr-5">
+						<a
+							href="https://lucky7tb.showwcase.com/"
+							rel="nooppener"
+						>
+							<img
+								src="@/assets/img/icon/Web.svg"
+								class="
+									transition
+									duration-300
+									ease-in-out
+									transform
+									hover:scale-125
+								"
+								alt="linkedin"
+								loading="lazy"
+							/>
+						</a>
+					</div>
 				</div>
 				<a
 					href="#contact"
