@@ -75,8 +75,8 @@
 										<div class="modal-box">
 											<h4 class="text-center text-xl font-bold">Goru</h4>
 											<p class="text-center font-light">
-												Web application for admin goru to confirm transaction in goru application.This web application build use Vue js as
-												a frontend, and Laravel as a backend.
+												Web application for admin goru to confirm transaction in goru application. 
+												This web application build use Vue js as a frontend, and Laravel as a backend.
 											</p>
 											<div class="modal-action">
 												<label
@@ -165,6 +165,45 @@
 											</p>
 											<div class="modal-action">
 												<label for="bc_project_modal" class="btn btn-outline"
+													>Close</label
+												>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="border mockup-window border-base-300 w-full">
+									<label for="inventory_modal" class="modal-button">
+										<div
+											class="
+												flex
+												justify-center
+												px-4
+												py-16
+												border-t border-base-300
+												h-96
+												project-bg
+												inventory
+											"
+										></div>
+									</label>
+									<input
+										type="checkbox"
+										id="inventory_modal"
+										class="modal-toggle"
+									/>
+									<div class="modal">
+										<div class="modal-box">
+											<h4 class="text-center text-xl font-bold">Web Admin Inventory</h4>
+											<p class="text-center font-light">
+												Web Admin Inventory is web application for technology information
+												vocational high school 1 Katapang. This application is
+												especially for the admin, the admin can track the stock
+												of the items, manage items, and track who borrowed the
+												items. This application builds using Laravel framework, and pusher for real time notification.
+											</p>
+											<div class="modal-action">
+												<label for="inventory_modal" class="btn btn-outline"
 													>Close</label
 												>
 											</div>
@@ -366,7 +405,7 @@
 												inventory technology information vocational high school
 												1 Katapang. So the user or student can borrow an item
 												use this application or directly come to the admin. This
-												project builds using React Native and React Native Element
+												project builds using React Native and React Native Element and using One Signal SDK for real time notification.
 											</p>
 											<div class="modal-action">
 												<label
