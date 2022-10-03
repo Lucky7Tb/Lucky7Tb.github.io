@@ -17,17 +17,7 @@
 					<div class="text-center w-full">
 						<h3 class="text-center font-semibold text-4xl">I'm</h3>
 						<p class="mt-5 font-light text-lg lg:text-2xl">
-							A Communicative and hard worker person student from Bandung who try to keep better from the previous version of myself. Study
-							at Telkom University, majoring in diploma software engineering
-							application. Currently spend my time as a mentor at
-							<a
-								href="https://www.instagram.com/chevalierlab_sas/"
-								target="_blank"
-								class="text-primary font-bold"
-								>Chevalier lab</a
-							>
-							teaching a web development espescially in front end web
-							development using vue js.
+							A Communicative and hard worker person student from Bandung. Always try to keep better and better version of myself. Love web development especially in Back End development using NodeJs or PHP, but also learn some Front End development and cross platform mobile.
 						</p>
 					</div>
 					<div>
