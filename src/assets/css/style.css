@@ -4,37 +4,46 @@
 	background-repeat: no-repeat;
 }
 
+.project-bg:hover {
+	background-size: contain;
+}
+
 .goru {
 	background-image: url('~@/assets/img/project/goru_admin.webp');
-	background-size: contain;
+	background-size: cover;
 }
 
 .findart {
-	background-image: url('~@/assets/img/project/find_art.png');
-	background-size: contain;
+	background-image: url('~@/assets/img/project/find_art.webp');
+	background-size: cover;
 }
 
 .bakers-corner {
-	background-image: url('~@/assets/img/project/bakers_corner.png');
-	background-size: contain;
+	background-image: url('~@/assets/img/project/bakers_corner.webp');
+	background-size: cover;
+}
+
+.koperasi-salimah {
+	background-image: url('~@/assets/img/project/koperasi_salimah.webp');
+	background-size: cover;
 }
 
 .inventory {
 	background-image: url('~@/assets/img/project/inventory.webp');
-	background-size: contain;
+	background-size: cover;
 }
 
 .simple-school {
 	background-image: url('~@/assets/img/project/simple_school.webp');
-	background-size: contain;
+	background-size: cover;
 }
 
 .gis-mapping {
 	background-image: url('~@/assets/img/project/gis_mapping.webp');
-	background-size: contain;
+	background-size: cover;
 }
 
 .book-ticket {
 	background-image: url('~@/assets/img/project/booking_tiket.webp');
-	background-size: contain;
+	background-size: cover;
 }

@@ -90,6 +90,43 @@
 								</div>
 
 								<div class="border mockup-window border-base-300 w-full">
+									<label for="koperasi_salimah_project_modal" class="modal-button">
+										<div
+											class="
+												flex
+												justify-center
+												px-4
+												py-16
+												border-t border-base-300
+												h-96
+												project-bg
+												koperasi-salimah
+											"
+										></div>
+									</label>
+									<input
+										type="checkbox"
+										id="koperasi_salimah_project_modal"
+										class="modal-toggle"
+									/>
+									<div class="modal">
+										<div class="modal-box">
+											<h4 class="text-center text-xl font-bold">Koperasi Salimah</h4>
+											<p class="text-center font-light">
+												A volunteer project for "Koperasi Salimah". This project is a community service project where in this project is required to create an online store to fulfill their transactions and increase income from this web. This project is using CI3, Bootstrap and Jquery.
+											</p>
+											<div class="modal-action">
+												<label
+													for="koperasi_salimah_project_modal"
+													class="btn btn-outline"
+													>Close</label
+												>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="border mockup-window border-base-300 w-full">
 									<label for="findart_project_modal" class="modal-button">
 										<div
 											class="
@@ -311,7 +348,7 @@
 								<div class="flex flex-col items-center justify-center">
 									<label for="goru_mobile_project_modal" class="modal-button">
 										<img
-											src="@/assets/img/project/goru_mobile.png"
+											src="@/assets/img/project/goru_mobile.webp"
 											class="mx-auto"
 											width="55%"
 											alt="goru_mobile"
