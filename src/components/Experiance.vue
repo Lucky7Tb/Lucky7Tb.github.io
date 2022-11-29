@@ -30,6 +30,56 @@
 						>
 							<div class="card-body">
 								<h2 class="card-title font-bold text-3xl text-center">
+									PT Folka Indonesia Teknologi
+								</h2>
+								<h3
+									class="
+										card-title
+										font-semibold
+										text-2xl text-center text-primary
+									"
+								>
+									Backend Developer
+								</h3>
+								<h4
+									class="
+										card-title
+										text-center
+									"
+								>November 2021 - Present</h4>
+								<p class="text-center text-xl text-light">
+									Start a new journey at different company as a Backend Developer. Hope get a new experiance to level up my skill.
+								</p>
+								<a
+									href="https://folkatech.com/"
+									target="_blank"
+									rel="nooppener"
+									class="
+										btn btn-primary
+										rounded-lg
+										mt-5
+										w-full
+										sm:w-40 sm:mx-auto
+									"
+									>More info</a
+								>
+							</div>
+						</div>
+						<div
+							class="
+								card
+								bg-base-200
+								shadow-lg
+								sm:full
+								transition
+								duration-300
+								ease-in-out
+								transform
+								hover:scale-110
+							"
+						>
+							<div class="card-body">
+								<h2 class="card-title font-bold text-3xl text-center">
 									Direktorat Pusat Teknologi Informasi
 								</h2>
 								<h3
@@ -39,7 +89,7 @@
 										text-2xl text-center text-primary
 									"
 								>
-									Backend Web Developer
+									Backend Developer
 								</h3>
 								<h4
 									class="
@@ -204,7 +254,6 @@
 								>
 							</div>
 						</div>
-						
 					</div>
 				</div>
 			</div>
