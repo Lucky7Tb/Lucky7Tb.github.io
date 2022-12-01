@@ -46,7 +46,7 @@
 										card-title
 										text-center
 									"
-								>November 2021 - Present</h4>
+								>December 2021 - Present</h4>
 								<p class="text-center text-xl text-light">
 									Start a new journey at different company as a Backend Developer. Hope get a new experiance to level up my skill.
 								</p>
